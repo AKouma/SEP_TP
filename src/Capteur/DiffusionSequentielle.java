@@ -2,6 +2,11 @@ package Capteur;
 
 import interFace.AlgoDiffusion;
 
+/**
+ * @author Aboubacar
+ * @author Salifou
+ *
+ */
 public class DiffusionSequentielle implements AlgoDiffusion{
 
 	@Override

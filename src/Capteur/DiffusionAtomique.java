@@ -1,5 +1,7 @@
 package Capteur;
-
+/**
+ * 
+ */
 import interFace.AlgoDiffusion;
 
 public class DiffusionAtomique implements AlgoDiffusion {

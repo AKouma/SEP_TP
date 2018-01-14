@@ -1,6 +1,6 @@
 package Capteur;
 /**
- * 
+ * @author Aboubacar
  * @author Salifou
  *
  */

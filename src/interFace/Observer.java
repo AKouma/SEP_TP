@@ -1,6 +1,6 @@
 package interFace;
 /**
- * 
+ * @author Aboubacar
  * @author Salifou
  *
  * @param <T>

@@ -7,7 +7,7 @@ import interFace.ObserverDeCapteur;
 import interFace.Subject;
 
 /**
- * 
+  * @author Aboubacar
  * @author Salifou
  *
  */
