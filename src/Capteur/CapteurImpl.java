@@ -1,5 +1,6 @@
 package Capteur;
 
+import interFace.AlgoDiffusion;
 /**
  * 
  */
@@ -7,6 +8,8 @@ import interFace.Capteur;
 import interFace.Observer;
 
 public class CapteurImpl implements Capteur {
+	AlgoDiffusion algo;
+	int v = 0;
 
 	@Override
 	public void attach(Observer<Capteur> Cap) {
@@ -22,16 +25,32 @@ public class CapteurImpl implements Capteur {
 
 	@Override
 	public int getValue() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.v;
 	}
-
+/**
+ * 
+ */
 	@Override
 	public void tick() {
-		// TODO Auto-generated method stub
-		
+      algo.execute();
+       this.incV();
 	}
-
+   /**
+    * 
+    */
+	public void incV() {
+		v++;
+	}
 	
+	public void setAlgoDiffusion(AlgoDiffusion algonew) {
+		algo = algonew;
+	}
+	/**
+	 * 
+	 * @return
+	 */
+	public AlgoDiffusion getAlgoDiffusion() {
+		return algo;
+	}
 
 }
