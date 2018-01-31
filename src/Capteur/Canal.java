@@ -18,11 +18,11 @@ import interFace.Subject;
  */
 public class Canal implements Capteur, ObserverDeCapteur {
   
-		CapteurImpl cap;
-		Afficheur affch;
+		CapteurImpl cap = new CapteurImpl();
+		Afficheur affch = new Afficheur();
      /**
       * Constructeur d'un nouveau canal
-      * @param cap1 : capteur d'entrée
+      * @param cap1 : capteur d'entrï¿½e
       * @param affch1 : Afficheur
       */
      

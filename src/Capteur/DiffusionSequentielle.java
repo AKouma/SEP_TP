@@ -7,7 +7,7 @@ import interFace.AlgoDiffusion;
  * @author Salifou
  *
  */
-public class DiffusionSequentielle implements AlgoDiffusion{
+public class DiffusionSequentielle extends Diffusion{
 
 	@Override
 	public void configure() {

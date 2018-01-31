@@ -8,7 +8,7 @@ import interFace.AlgoDiffusion;
  * @author Salifou
  *
  */
-public class DiffusionParEpoque implements AlgoDiffusion {
+public class DiffusionParEpoque extends Diffusion {
 
 	@Override
 	public void configure() {
