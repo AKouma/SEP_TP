@@ -10,7 +10,7 @@ import interFace.Capteur;
 import interFace.Observer;
 
 public class CapteurImpl implements Capteur {
-	AlgoDiffusion algo;
+	Diffusion algo = new Diffusion() ;
 	int v = 0;
 	ArrayList<Observer<Capteur>> liste = new ArrayList<>();
 

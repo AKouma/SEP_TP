@@ -4,7 +4,7 @@ package Capteur;
  */
 import interFace.AlgoDiffusion;
 
-public class DiffusionAtomique implements AlgoDiffusion {
+public class DiffusionAtomique extends Diffusion  {
 
 	@Override
 	public void configure() {
