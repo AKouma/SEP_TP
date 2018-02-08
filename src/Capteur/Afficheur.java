@@ -5,7 +5,6 @@ import javax.swing.JLabel;
 import interFace.AlgoDiffusion;
 import interFace.Capteur;
 import interFace.ObserverDeCapteur;
-import interFace.Subject;
 
 /**
   * @author Aboubacar
@@ -20,7 +19,7 @@ public class Afficheur extends JLabel implements ObserverDeCapteur {
 	private static final long serialVersionUID = 1L;
 /**
  * Consructeur
- * @param Val
+ * @param defaul
  */
 	public Afficheur(String defaul) {
       super(defaul);

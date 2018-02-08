@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_iwyZ0A0lEeitjunpiMkR1A" name="Projet_SEP">
+    <eAnnotations xmi:id="_j5SS8A0lEeitjunpiMkR1A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_j5SS8Q0lEeitjunpiMkR1A" source="codegen">
+        <details xmi:id="_j5SS8g0lEeitjunpiMkR1A" key="codegenDirectory" value="/Projet_SEP/src"/>
+        <details xmi:id="_xJsZEQ0lEeitjunpiMkR1A" key="AssociatedSourceCode" value="/Projet_SEP/src/Capteur/Afficheur.java;2677807483/1;/Projet_SEP/src/Capteur/AfficheurTest.java;2518400024/1;/Projet_SEP/src/Capteur/Canal.java;1714911783/1;/Projet_SEP/src/Capteur/CanalTest.java;3147845963/1;/Projet_SEP/src/Capteur/CapteurImpl.java;2650243577/1;/Projet_SEP/src/Capteur/CapteurImplTest.java;345602132/1;/Projet_SEP/src/Capteur/DiffusionAtomiqueTest.java;461755950/1;/Projet_SEP/src/Capteur/DiffusionAtomique.java;268505629/1;/Projet_SEP/src/Capteur/DiffusionParEpoque.java;3851324332/1;/Projet_SEP/src/Capteur/DiffusionParEpoqueTest.java;513385959/1;/Projet_SEP/src/Capteur/GetValue.java;212040694/1;/Projet_SEP/src/Capteur/DiffusionSequentielleTest.java;4040576898/1;/Projet_SEP/src/Capteur/GetValueTest.java;3645357602/1;/Projet_SEP/src/Capteur/UpdateTest.java;506783455/1;/Projet_SEP/src/Capteur/Update.java;3780890067/1;/Projet_SEP/src/Capteur/DiffusionSequentielle.java;2269543815/1;/Projet_SEP/src/Capteur/Scheduler.java;1681056494/1;/Projet_SEP/src/interFace/AlgoDiffusion.java;3641649980/1;/Projet_SEP/src/interFace/Capteur.java;1763676948/1;/Projet_SEP/src/interFace/Observer.java;3522140084/1;/Projet_SEP/src/interFace/ObserverDeCapteur.java;4263167074/1;/Projet_SEP/src/interFace/Subject.java;4100828123/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_nqR4UA0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGQA0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGQQ0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGQg0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGQw0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGRA0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGRQ0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGRg0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_nrCGRw0lEeitjunpiMkR1A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nrCGSA0lEeitjunpiMkR1A" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nrCGSQ0lEeitjunpiMkR1A" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_n03Xsg0lEeitjunpiMkR1A" name="border">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oxILsQ0lEeitjunpiMkR1A" name="Border"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_orKtkA0lEeitjunpiMkR1A" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oxILpQ0lEeitjunpiMkR1A" name="BorderFactory"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oxILpw0lEeitjunpiMkR1A" name="ButtonGroup"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oxILqQ0lEeitjunpiMkR1A" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oxILqw0lEeitjunpiMkR1A" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oxILrQ0lEeitjunpiMkR1A" name="JRadioButton"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_oxILrw0lEeitjunpiMkR1A" name="SwingConstants"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nreLIA0lEeitjunpiMkR1A" name="interFace">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oU8l8A0lEeitjunpiMkR1A" name="AlgoDiffusion">
+        <ownedComment xmi:id="_o4btgA0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_oWSpwA0lEeitjunpiMkR1A" name="configure">
+          <ownedComment xmi:id="_o4btgQ0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oWSpwQ0lEeitjunpiMkR1A" name="execute">
+          <ownedComment xmi:id="_o4btgg0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oxR8og0lEeitjunpiMkR1A" name="setCapteur">
+          <ownedComment xmi:id="_o4btgw0lEeitjunpiMkR1A">
+            <body>&#xD;
+@param cap</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oxR8ow0lEeitjunpiMkR1A" name="cap" type="_oMAsYw0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oxR8pA0lEeitjunpiMkR1A" name="addCanal">
+          <ownedComment xmi:id="_o4bthA0lEeitjunpiMkR1A">
+            <body>&#xD;
+@param canal1</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oxR8pQ0lEeitjunpiMkR1A" name="canal1" type="_oLXMIA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oWSpwg0lEeitjunpiMkR1A" name="Capteur">
+        <ownedComment xmi:id="_o4bthQ0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_oWSpww0lEeitjunpiMkR1A" name="value" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_oWSpxQ0lEeitjunpiMkR1A" name="algoDiffusion" type="_oU8l8A0lEeitjunpiMkR1A" isReadOnly="true" association="_o5VFYA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oWSpxA0lEeitjunpiMkR1A" name="tick">
+          <ownedComment xmi:id="_o4btiA0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oxR8pg0lEeitjunpiMkR1A" name="attach">
+          <ownedComment xmi:id="_o4bthg0lEeitjunpiMkR1A">
+            <body>&#xD;
+	 * @param Cap</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oxR8pw0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oxR8qQ0lEeitjunpiMkR1A" name="detach">
+          <ownedComment xmi:id="_o4bthw0lEeitjunpiMkR1A">
+            <body>&#xD;
+	 * @param Cap</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oxR8qg0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oWSpxg0lEeitjunpiMkR1A" name="Observer">
+        <ownedComment xmi:id="_o4btiQ0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *&#xD;
+@param &lt;T></body>
+        </ownedComment>
+        <ownedOperation xmi:id="_oz9dPw0lEeitjunpiMkR1A" name="update">
+          <ownedParameter xmi:id="_oz9dQA0lEeitjunpiMkR1A" name="Capteur" type="_oz9dPQ0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oWlksQ0lEeitjunpiMkR1A" name="ObserverDeCapteur">
+        <ownedComment xmi:id="_o4btig0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_ozN2UQ0lEeitjunpiMkR1A" general="_oWSpxg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_ozN2Uw0lEeitjunpiMkR1A" name="update">
+          <ownedParameter xmi:id="_ozN2VA0lEeitjunpiMkR1A" name="cap" type="_oWSpwg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_oWlksg0lEeitjunpiMkR1A" name="Subject">
+        <ownedComment xmi:id="_o4btiw0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_oWvVsA0lEeitjunpiMkR1A" name="attach">
+          <ownedComment xmi:id="_o4btjA0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oWvVsQ0lEeitjunpiMkR1A" name="detach">
+          <ownedComment xmi:id="_o4btjQ0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oz9dPQ0lEeitjunpiMkR1A" name="T"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFYA0lEeitjunpiMkR1A" name="" memberEnd="_o5VFYQ0lEeitjunpiMkR1A _oWSpxQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFYQ0lEeitjunpiMkR1A" name="" type="_oWSpwg0lEeitjunpiMkR1A" association="_o5VFYA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nxvLMA0lEeitjunpiMkR1A" name="Capteur">
+      <packagedElement xmi:type="uml:Class" xmi:id="_n8UDgA0lEeitjunpiMkR1A" name="Afficheur">
+        <ownedComment xmi:id="_o3Pa3A0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_ozgxQA0lEeitjunpiMkR1A" general="_orKtkA0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o0aJIA0lEeitjunpiMkR1A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o0tEEA0lEeitjunpiMkR1A" value="1L"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ornZgA0lEeitjunpiMkR1A" client="_n8UDgA0lEeitjunpiMkR1A" supplier="_oWlksQ0lEeitjunpiMkR1A" contract="_oWlksQ0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fwA0lEeitjunpiMkR1A" name="Afficheur" specification="_oE9pMA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28fwQ0lEeitjunpiMkR1A" name="defaul">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_o28fwg0lEeitjunpiMkR1A" type="_n8UDgA0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>super(defaul);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fww0lEeitjunpiMkR1A" name="update" specification="_ot__IA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28fxA0lEeitjunpiMkR1A" name="cap" type="_oWSpwg0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>AlgoDiffusion algorithme = cap.getAlgoDiffusion();&#xD;
+  if(algorithme instanceof DiffusionAtomique) {&#xD;
+ 	 int value = cap.getValue();&#xD;
+ 	 this.setText(String.valueOf(value));&#xD;
+ 	 ((DiffusionAtomique) algorithme).release();&#xD;
+  }&#xD;
+  else if(algorithme instanceof DiffusionParEpoque) {&#xD;
+ 	 int value = cap.getValue();&#xD;
+ 	 this.setText(String.valueOf(value));&#xD;
+ 	 &#xD;
+  }&#xD;
+  else if(algorithme instanceof DiffusionSequentielle) {&#xD;
+ 	 int value;&#xD;
+ 	((DiffusionSequentielle) algorithme).acquire();&#xD;
+ 	 if(((DiffusionSequentielle) algorithme).lecture()) {&#xD;
+ 		 value = cap.getValue();&#xD;
+ 		 ((DiffusionSequentielle) algorithme).setVal(value);&#xD;
+	 }&#xD;
+ 	 else {&#xD;
+ 		 value =  ((DiffusionSequentielle) algorithme).getValue();&#xD;
+ 		 &#xD;
+ 	 }&#xD;
+ 	  ((DiffusionSequentielle) algorithme).release();&#xD;
+ 	 this.setText(String.valueOf(value));&#xD;
+  }&#xD;
+ 	    &#xD;
+ &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oE9pMA0lEeitjunpiMkR1A" name="Afficheur" method="_o28fwA0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_oFtQEA0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oFtQEQ0lEeitjunpiMkR1A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_oFjfEA0lEeitjunpiMkR1A" name="defaul">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_oF2aAA0lEeitjunpiMkR1A" type="_n8UDgA0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ot__IA0lEeitjunpiMkR1A" name="update" method="_o28fww0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_ot__IQ0lEeitjunpiMkR1A" name="cap" type="_oWSpwg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oIF1sA0lEeitjunpiMkR1A" name="AfficheurTest">
+        <ownedAttribute xmi:id="_o0tEEQ0lEeitjunpiMkR1A" name="defaul" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o0tEEw0lEeitjunpiMkR1A" name="affTest" visibility="package" type="_n8UDgA0lEeitjunpiMkR1A" association="_o5VFYw0lEeitjunpiMkR1A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o0tEFA0lEeitjunpiMkR1A" value="new Afficheur(defaul)"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fxQ0lEeitjunpiMkR1A" name="testAfficheur" specification="_oKxWRg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fxg0lEeitjunpiMkR1A" name="testUpdateCapteur" specification="_oKxWSg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oIO_oA0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oIihog0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oIihpg0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oKxWQg0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oKxWRg0lEeitjunpiMkR1A" name="testAfficheur" method="_o28fxQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oKxWSg0lEeitjunpiMkR1A" name="testUpdateCapteur" method="_o28fxg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oLXMIA0lEeitjunpiMkR1A" name="Canal">
+        <ownedComment xmi:id="_o3Pa3Q0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_o0tEFg0lEeitjunpiMkR1A" name="cap" visibility="package" type="_oMAsYw0lEeitjunpiMkR1A" association="_o5VFZg0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o0tEGA0lEeitjunpiMkR1A" name="affch" visibility="package" type="_n8UDgA0lEeitjunpiMkR1A" association="_o5VFaQ0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oucrEg0lEeitjunpiMkR1A" client="_oLXMIA0lEeitjunpiMkR1A" supplier="_oWSpwg0lEeitjunpiMkR1A" contract="_oWSpwg0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oucrEw0lEeitjunpiMkR1A" client="_oLXMIA0lEeitjunpiMkR1A" supplier="_oWlksQ0lEeitjunpiMkR1A" contract="_oWlksQ0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fxw0lEeitjunpiMkR1A" name="Canal" specification="_oucrFA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28fyA0lEeitjunpiMkR1A" name="cap1" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_o28fyQ0lEeitjunpiMkR1A" name="affch1" type="_n8UDgA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_o28fyg0lEeitjunpiMkR1A" type="_oLXMIA0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>this.affch = affch1;&#xD;
+ 	 this.cap= cap1;&#xD;
+ 	&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fyw0lEeitjunpiMkR1A" name="update" specification="_oumcEA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28fzA0lEeitjunpiMkR1A" name="cap" type="_oWSpwg0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>Update newUpdate= new Update(affch, this);&#xD;
+		ScheduledThreadPoolExecutor scheduler = new ScheduledThreadPoolExecutor(10);&#xD;
+    scheduler.schedule(newUpdate, (long)(Math.random() * 4000) + 500, TimeUnit.MILLISECONDS);&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fzQ0lEeitjunpiMkR1A" name="getValue" specification="_oLg9IA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28fzg0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>int tmp=0;&#xD;
+	GetValue val = new GetValue(cap);&#xD;
+	ScheduledThreadPoolExecutor scheduler = new ScheduledThreadPoolExecutor(10);&#xD;
+ ScheduledFuture&lt;Integer> future=  scheduler.schedule(val, (long)(Math.random() * 4000) + 500, TimeUnit.MILLISECONDS);&#xD;
+  &#xD;
+		try {&#xD;
+			try {&#xD;
+				tmp =  future.get();&#xD;
+			} catch (ExecutionException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+		} catch (InterruptedException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			}&#xD;
+		&#xD;
+		return tmp;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28fzw0lEeitjunpiMkR1A" name="getAlgoDiffusion" specification="_oLg9Kw0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28f0A0lEeitjunpiMkR1A" type="_oU8l8A0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>return cap.getAlgoDiffusion();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oLg9IA0lEeitjunpiMkR1A" name="getValue" method="_o28fzQ0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oLg9IQ0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oLg9Jw0lEeitjunpiMkR1A" name="tick"/>
+        <ownedOperation xmi:id="_oLg9Kw0lEeitjunpiMkR1A" name="getAlgoDiffusion" method="_o28fzw0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oumcIQ0lEeitjunpiMkR1A" type="_oU8l8A0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oucrFA0lEeitjunpiMkR1A" name="Canal" method="_o28fxw0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_oucrFw0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oucrGA0lEeitjunpiMkR1A" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_o3Pa3g0lEeitjunpiMkR1A">
+            <body>Constructeur d'un nouveau canal&#xD;
+      * @param cap1 : capteur d'entrée&#xD;
+      * @param affch1 : Afficheur</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oucrFQ0lEeitjunpiMkR1A" name="cap1" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_oucrFg0lEeitjunpiMkR1A" name="affch1" type="_n8UDgA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_oucrGQ0lEeitjunpiMkR1A" type="_oLXMIA0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oumcEA0lEeitjunpiMkR1A" name="update" method="_o28fyw0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oumcEQ0lEeitjunpiMkR1A" name="cap" type="_oWSpwg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oumcFQ0lEeitjunpiMkR1A" name="attach">
+          <ownedParameter xmi:id="_oumcFg0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oumcGw0lEeitjunpiMkR1A" name="detach">
+          <ownedParameter xmi:id="_oumcHA0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oLquIA0lEeitjunpiMkR1A" name="CanalTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f0Q0lEeitjunpiMkR1A" name="testCanal" specification="_oL27ZA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f0g0lEeitjunpiMkR1A" name="testUpdate" specification="_oL27aA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f0w0lEeitjunpiMkR1A" name="testAttach" specification="_oL27bA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f1A0lEeitjunpiMkR1A" name="testDetach" specification="_oL27cA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f1Q0lEeitjunpiMkR1A" name="testGetValue" specification="_oL27dA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f1g0lEeitjunpiMkR1A" name="testTick" specification="_oL27eA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f1w0lEeitjunpiMkR1A" name="testGetAlgoDiffusion" specification="_oL27fA0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oLquIQ0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oLquJQ0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL1GMA0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27YA0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27ZA0lEeitjunpiMkR1A" name="testCanal" method="_o28f0Q0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27aA0lEeitjunpiMkR1A" name="testUpdate" method="_o28f0g0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27bA0lEeitjunpiMkR1A" name="testAttach" method="_o28f0w0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27cA0lEeitjunpiMkR1A" name="testDetach" method="_o28f1A0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27dA0lEeitjunpiMkR1A" name="testGetValue" method="_o28f1Q0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27eA0lEeitjunpiMkR1A" name="testTick" method="_o28f1g0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oL27fA0lEeitjunpiMkR1A" name="testGetAlgoDiffusion" method="_o28f1w0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oMAsYw0lEeitjunpiMkR1A" name="CapteurImpl">
+        <ownedAttribute xmi:id="_o0tEGg0lEeitjunpiMkR1A" name="algo" visibility="package" type="_oU8l8A0lEeitjunpiMkR1A" association="_o5VFbA0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o021EA0lEeitjunpiMkR1A" name="v" visibility="package">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o021EQ0lEeitjunpiMkR1A" value="0"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ouvmAA0lEeitjunpiMkR1A" client="_oMAsYw0lEeitjunpiMkR1A" supplier="_oWSpwg0lEeitjunpiMkR1A" contract="_oWSpwg0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f2A0lEeitjunpiMkR1A" name="getValue" specification="_oMAsZA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o28f2Q0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return v;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o28f2g0lEeitjunpiMkR1A" name="tick" specification="_oMmiQg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>v++;&#xD;
+	    algo.execute();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpsA0lEeitjunpiMkR1A" name="setAlgoDiffusion" specification="_ouvmDQ0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3FpsQ0lEeitjunpiMkR1A" name="algonew" type="_oU8l8A0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>algo = algonew;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpsg0lEeitjunpiMkR1A" name="getAlgoDiffusion" specification="_oMmiRg0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Fpsw0lEeitjunpiMkR1A" type="_oU8l8A0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>return algo;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oMAsZA0lEeitjunpiMkR1A" name="getValue" method="_o28f2A0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oMJ2UA0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oMmiQg0lEeitjunpiMkR1A" name="tick" method="_o28f2g0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oMmiRg0lEeitjunpiMkR1A" name="getAlgoDiffusion" method="_o3Fpsg0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLsQ0lEeitjunpiMkR1A">
+            <body>&#xD;
+	 * @return</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ouvmDw0lEeitjunpiMkR1A" type="_oU8l8A0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ouvmAQ0lEeitjunpiMkR1A" name="attach">
+          <ownedParameter xmi:id="_ouvmAg0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ouvmBw0lEeitjunpiMkR1A" name="detach">
+          <ownedParameter xmi:id="_ouvmCA0lEeitjunpiMkR1A" name="Cap" type="_oWSpxg0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ouvmDQ0lEeitjunpiMkR1A" name="setAlgoDiffusion" method="_o3FpsA0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLsA0lEeitjunpiMkR1A">
+            <body>Modificatio algo&#xD;
+	 * @param algonew</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ouvmDg0lEeitjunpiMkR1A" name="algonew" type="_oU8l8A0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oMwTQA0lEeitjunpiMkR1A" name="CapteurImplTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FptA0lEeitjunpiMkR1A" name="testAttach" specification="_oM5dOg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FptQ0lEeitjunpiMkR1A" name="testDetach" specification="_oNDOMg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fptg0lEeitjunpiMkR1A" name="testGetValue" specification="_oNDONg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fptw0lEeitjunpiMkR1A" name="testTick" specification="_oNDOOg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpuA0lEeitjunpiMkR1A" name="testSetAlgoDiffusion" specification="_oNDOPg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpuQ0lEeitjunpiMkR1A" name="testGetAlgoDiffusion" specification="_oNM_Mw0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oMwTQQ0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oMwTRQ0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oM5dMg0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oM5dNg0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oM5dOg0lEeitjunpiMkR1A" name="testAttach" method="_o3FptA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNDOMg0lEeitjunpiMkR1A" name="testDetach" method="_o3FptQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNDONg0lEeitjunpiMkR1A" name="testGetValue" method="_o3Fptg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNDOOg0lEeitjunpiMkR1A" name="testTick" method="_o3Fptw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNDOPg0lEeitjunpiMkR1A" name="testSetAlgoDiffusion" method="_o3FpuA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNM_Mw0lEeitjunpiMkR1A" name="testGetAlgoDiffusion" method="_o3FpuQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oNM_Nw0lEeitjunpiMkR1A" name="DiffusionAtomiqueTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpug0lEeitjunpiMkR1A" name="testConfigure" specification="_oN8mGg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpuw0lEeitjunpiMkR1A" name="testExecute" specification="_oN8mHg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpvA0lEeitjunpiMkR1A" name="testRelease" specification="_oN8mIg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpvQ0lEeitjunpiMkR1A" name="testReset" specification="_oN8mJg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpvg0lEeitjunpiMkR1A" name="testSetCapteur" specification="_oN8mKg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpvw0lEeitjunpiMkR1A" name="testAddCanal" specification="_oN8mLg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oNM_OA0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oNy1EQ0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mEg0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mFg0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mGg0lEeitjunpiMkR1A" name="testConfigure" method="_o3Fpug0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mHg0lEeitjunpiMkR1A" name="testExecute" method="_o3Fpuw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mIg0lEeitjunpiMkR1A" name="testRelease" method="_o3FpvA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mJg0lEeitjunpiMkR1A" name="testReset" method="_o3FpvQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mKg0lEeitjunpiMkR1A" name="testSetCapteur" method="_o3Fpvg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oN8mLg0lEeitjunpiMkR1A" name="testAddCanal" method="_o3Fpvw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oOsM8A0lEeitjunpiMkR1A" name="DiffusionAtomique">
+        <ownedAttribute xmi:id="_o021Ew0lEeitjunpiMkR1A" name="cap" visibility="private" type="_oWSpwg0lEeitjunpiMkR1A" association="_o5VFbw0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o021FQ0lEeitjunpiMkR1A" name="listCan" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" isOrdered="true" association="_o5VFcg0lEeitjunpiMkR1A">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o021Fg0lEeitjunpiMkR1A" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o021Fw0lEeitjunpiMkR1A" value="new ArrayList&lt;Canal>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o021GQ0lEeitjunpiMkR1A" name="sem" visibility="private" type="_ov740w0lEeitjunpiMkR1A" association="_o5VFdQ0lEeitjunpiMkR1A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o021Gg0lEeitjunpiMkR1A" value="new Semaphore(0)"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ov741Q0lEeitjunpiMkR1A" client="_oOsM8A0lEeitjunpiMkR1A" supplier="_oU8l8A0lEeitjunpiMkR1A" contract="_oU8l8A0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpwA0lEeitjunpiMkR1A" name="execute" specification="_oOsM9Q0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>for(Canal i : listCan) {&#xD;
+			i.update(cap);&#xD;
+			&#xD;
+		}&#xD;
+		&#xD;
+		try {&#xD;
+			sem.acquire(listCan.size());&#xD;
+		} catch (InterruptedException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpwQ0lEeitjunpiMkR1A" name="release" specification="_oOsM-Q0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>sem.release();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpwg0lEeitjunpiMkR1A" name="reset" specification="_oOsM-g0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>int tem = listCan.size();&#xD;
+		sem.release(tem);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpww0lEeitjunpiMkR1A" name="setCapteur" specification="_ov741g0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3FpxA0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>cap = capImp;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpxQ0lEeitjunpiMkR1A" name="addCanal" specification="_ov742A0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Fpxg0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>listCan.add(canAdd);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oOsM8Q0lEeitjunpiMkR1A" name="configure"/>
+        <ownedOperation xmi:id="_oOsM9Q0lEeitjunpiMkR1A" name="execute" method="_o3FpwA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oOsM-Q0lEeitjunpiMkR1A" name="release" method="_o3FpwQ0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLsg0lEeitjunpiMkR1A">
+            <body>on fait la synchronisation</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oOsM-g0lEeitjunpiMkR1A" name="reset" method="_o3Fpwg0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLsw0lEeitjunpiMkR1A">
+            <body>Reset algo</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ov741g0lEeitjunpiMkR1A" name="setCapteur" method="_o3Fpww0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLtA0lEeitjunpiMkR1A">
+            <body>Ajout du capteur&#xD;
+	 * @param capImp</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ov741w0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ov742A0lEeitjunpiMkR1A" name="addCanal" method="_o3FpxQ0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLtQ0lEeitjunpiMkR1A">
+            <body>Ajout du Canal&#xD;
+	 * @param canAdd</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ov742Q0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oO198A0lEeitjunpiMkR1A" name="DiffusionParEpoque">
+        <ownedComment xmi:id="_o3ZLtg0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_o021HA0lEeitjunpiMkR1A" name="cap" visibility="private" type="_oWSpwg0lEeitjunpiMkR1A" association="_o5ePUQ0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o021Hg0lEeitjunpiMkR1A" name="listCan" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" isOrdered="true" association="_o5ePVA0lEeitjunpiMkR1A">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o021Hw0lEeitjunpiMkR1A" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o021IA0lEeitjunpiMkR1A" value="new ArrayList&lt;Canal>()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_ov742g0lEeitjunpiMkR1A" client="_oO198A0lEeitjunpiMkR1A" supplier="_oU8l8A0lEeitjunpiMkR1A" contract="_oU8l8A0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpxw0lEeitjunpiMkR1A" name="execute" specification="_oO199Q0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>for(Canal i : listCan) {&#xD;
+			i.update(cap);&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpyA0lEeitjunpiMkR1A" name="setCapteur" specification="_ov742w0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3FpyQ0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>cap = capImp;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpyg0lEeitjunpiMkR1A" name="addCanal" specification="_ov743Q0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Fpyw0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>listCan.add(canAdd);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oO198Q0lEeitjunpiMkR1A" name="configure"/>
+        <ownedOperation xmi:id="_oO199Q0lEeitjunpiMkR1A" name="execute" method="_o3Fpxw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_ov742w0lEeitjunpiMkR1A" name="setCapteur" method="_o3FpyA0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLtw0lEeitjunpiMkR1A">
+            <body>Ajout du capteur&#xD;
+	 * @param capImp</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ov743A0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ov743Q0lEeitjunpiMkR1A" name="addCanal" method="_o3Fpyg0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLuA0lEeitjunpiMkR1A">
+            <body>Ajout du Canal&#xD;
+	 * @param canAdd</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ov743g0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oPSC0A0lEeitjunpiMkR1A" name="DiffusionParEpoqueTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpzA0lEeitjunpiMkR1A" name="testConfigure" specification="_oQLavQ0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3FpzQ0lEeitjunpiMkR1A" name="testExecute" specification="_oQLawQ0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpzg0lEeitjunpiMkR1A" name="testSetCapteur" specification="_oQLaxQ0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fpzw0lEeitjunpiMkR1A" name="testAddCanal" specification="_oQVLsg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oPSC0Q0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLasQ0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLatQ0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLauQ0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLavQ0lEeitjunpiMkR1A" name="testConfigure" method="_o3FpzA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLawQ0lEeitjunpiMkR1A" name="testExecute" method="_o3FpzQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQLaxQ0lEeitjunpiMkR1A" name="testSetCapteur" method="_o3Fpzg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oQVLsg0lEeitjunpiMkR1A" name="testAddCanal" method="_o3Fpzw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQe8sg0lEeitjunpiMkR1A" name="GetValue">
+        <ownedComment xmi:id="_o3ZLuQ0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_o021Ig0lEeitjunpiMkR1A" name="Cap" visibility="private" type="_oMAsYw0lEeitjunpiMkR1A" association="_o5ePVw0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oz0TQA0lEeitjunpiMkR1A" client="_oQe8sg0lEeitjunpiMkR1A" supplier="_owiVwA0lEeitjunpiMkR1A" contract="_owiVwA0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Fp0A0lEeitjunpiMkR1A" name="GetValue" specification="_owsGwA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Fp0Q0lEeitjunpiMkR1A" name="cap" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_o3Fp0g0lEeitjunpiMkR1A" type="_oQe8sg0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>this.Cap = cap;&#xD;
+ 	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PasA0lEeitjunpiMkR1A" name="call" specification="_oQoGoA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3PasQ0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return Cap.getValue();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQoGoA0lEeitjunpiMkR1A" name="call" method="_o3PasA0lEeitjunpiMkR1A" raisedException="_ozgxQg0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oQoGoQ0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_owsGwA0lEeitjunpiMkR1A" name="GetValue" method="_o3Fp0A0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_owsGwg0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_owsGww0lEeitjunpiMkR1A" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_o3ZLug0lEeitjunpiMkR1A">
+            <body>Constructeur invocateur&#xD;
+	 * @param cap</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_owsGwQ0lEeitjunpiMkR1A" name="cap" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_owsGxA0lEeitjunpiMkR1A" type="_oQe8sg0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oQx3oA0lEeitjunpiMkR1A" name="DiffusionSequentielleTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pasg0lEeitjunpiMkR1A" name="testConfigure" specification="_oR-Kcg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pasw0lEeitjunpiMkR1A" name="testExecute" specification="_oR-Kdg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PatA0lEeitjunpiMkR1A" name="testAcquire" specification="_oR-Keg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PatQ0lEeitjunpiMkR1A" name="testRelease" specification="_oR-Kfg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Patg0lEeitjunpiMkR1A" name="testLecture" specification="_oR-Kgg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Patw0lEeitjunpiMkR1A" name="testGetValue" specification="_oR-Khg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PauA0lEeitjunpiMkR1A" name="testSetVal" specification="_oR-Kig0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PauQ0lEeitjunpiMkR1A" name="testSetCapteur" specification="_oR-Kjg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Paug0lEeitjunpiMkR1A" name="testAddCanal" specification="_oR-Kkg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oQ7BkA0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR0ZcA0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR0ZdA0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR0ZeA0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kcg0lEeitjunpiMkR1A" name="testConfigure" method="_o3Pasg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kdg0lEeitjunpiMkR1A" name="testExecute" method="_o3Pasw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Keg0lEeitjunpiMkR1A" name="testAcquire" method="_o3PatA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kfg0lEeitjunpiMkR1A" name="testRelease" method="_o3PatQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kgg0lEeitjunpiMkR1A" name="testLecture" method="_o3Patg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Khg0lEeitjunpiMkR1A" name="testGetValue" method="_o3Patw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kig0lEeitjunpiMkR1A" name="testSetVal" method="_o3PauA0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kjg0lEeitjunpiMkR1A" name="testSetCapteur" method="_o3PauQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oR-Kkg0lEeitjunpiMkR1A" name="testAddCanal" method="_o3Paug0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSHUYg0lEeitjunpiMkR1A" name="GetValueTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pauw0lEeitjunpiMkR1A" name="testGetValue" specification="_oSHUcw0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PavA0lEeitjunpiMkR1A" name="testCall" specification="_oSHUdw0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oSHUYw0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSHUZw0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSHUaw0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSHUbw0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSHUcw0lEeitjunpiMkR1A" name="testGetValue" method="_o3Pauw0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSHUdw0lEeitjunpiMkR1A" name="testCall" method="_o3PavA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSRFYA0lEeitjunpiMkR1A" name="UpdateTest">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PavQ0lEeitjunpiMkR1A" name="testUpdate" specification="_oSRFcQ0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pavg0lEeitjunpiMkR1A" name="testCall" specification="_oSRFdQ0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>fail(&quot;Not yet implemented&quot;);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oSRFYQ0lEeitjunpiMkR1A" name="setUpBeforeClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSRFZQ0lEeitjunpiMkR1A" name="tearDownAfterClass" isStatic="true" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSRFaQ0lEeitjunpiMkR1A" name="setUp" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSRFbQ0lEeitjunpiMkR1A" name="tearDown" raisedException="_ozgxQg0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSRFcQ0lEeitjunpiMkR1A" name="testUpdate" method="_o3PavQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSRFdQ0lEeitjunpiMkR1A" name="testCall" method="_o3Pavg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSa2YA0lEeitjunpiMkR1A" name="Update">
+        <ownedComment xmi:id="_o3ZLuw0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_o021JA0lEeitjunpiMkR1A" name="aff" visibility="private" type="_n8UDgA0lEeitjunpiMkR1A" association="_o5ePWg0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o021Jg0lEeitjunpiMkR1A" name="canal" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5ePXQ0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oz0TQg0lEeitjunpiMkR1A" client="_oSa2YA0lEeitjunpiMkR1A" supplier="_owiVwA0lEeitjunpiMkR1A" contract="_owiVwA0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pavw0lEeitjunpiMkR1A" name="Update" specification="_owsGxQ0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3PawA0lEeitjunpiMkR1A" name="affch" type="_n8UDgA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_o3PawQ0lEeitjunpiMkR1A" name="can" type="_oLXMIA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_o3Pawg0lEeitjunpiMkR1A" type="_oSa2YA0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>this.aff= affch;&#xD;
+		this.canal= can;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Paww0lEeitjunpiMkR1A" name="call" specification="_oSa2YQ0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3PaxA0lEeitjunpiMkR1A" type="_oz0TRA0lEeitjunpiMkR1A" direction="return"/>
+          <language>java</language>
+          <body>aff.update(canal);&#xD;
+		return null;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oSa2YQ0lEeitjunpiMkR1A" name="call" method="_o3Paww0lEeitjunpiMkR1A" raisedException="_ozgxQg0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oz0TRg0lEeitjunpiMkR1A" type="_oz0TRA0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_owsGxQ0lEeitjunpiMkR1A" name="Update" method="_o3Pavw0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_owsGyA0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_owsGyQ0lEeitjunpiMkR1A" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_o3ZLvA0lEeitjunpiMkR1A">
+            <body>Constructor&#xD;
+	 * @param cap&#xD;
+	 * @param affch</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_owsGxg0lEeitjunpiMkR1A" name="affch" type="_n8UDgA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_owsGxw0lEeitjunpiMkR1A" name="can" type="_oLXMIA0lEeitjunpiMkR1A"/>
+          <ownedParameter xmi:id="_owsGyg0lEeitjunpiMkR1A" type="_oSa2YA0lEeitjunpiMkR1A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSa2ZQ0lEeitjunpiMkR1A" name="DiffusionSequentielle">
+        <ownedComment xmi:id="_o3ZLvQ0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_o1AmEQ0lEeitjunpiMkR1A" name="cap" visibility="private" type="_oWSpwg0lEeitjunpiMkR1A" association="_o5ePYA0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1AmEw0lEeitjunpiMkR1A" name="listCan" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" isOrdered="true" association="_o5ePYw0lEeitjunpiMkR1A">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o1AmFA0lEeitjunpiMkR1A" value="*"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmFQ0lEeitjunpiMkR1A" value="new ArrayList&lt;Canal>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmFw0lEeitjunpiMkR1A" name="sem" visibility="private" type="_ov740w0lEeitjunpiMkR1A" association="_o5ePZg0lEeitjunpiMkR1A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmGA0lEeitjunpiMkR1A" value="new Semaphore(1)"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmGg0lEeitjunpiMkR1A" name="debut" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmGw0lEeitjunpiMkR1A" value="true"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmHQ0lEeitjunpiMkR1A" name="compteur" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmHg0lEeitjunpiMkR1A" value="0"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmIA0lEeitjunpiMkR1A" name="lecture" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmIQ0lEeitjunpiMkR1A" value="true"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmIw0lEeitjunpiMkR1A" name="Val" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_owsGyw0lEeitjunpiMkR1A" client="_oSa2ZQ0lEeitjunpiMkR1A" supplier="_oU8l8A0lEeitjunpiMkR1A" contract="_oU8l8A0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PaxQ0lEeitjunpiMkR1A" name="execute" specification="_oSa2ag0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>if(debut) {&#xD;
+			debut = false;&#xD;
+			for(Canal i : listCan) {&#xD;
+				i.update(cap);&#xD;
+			}&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Paxg0lEeitjunpiMkR1A" name="acquire" specification="_oSkAUg0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>try {&#xD;
+		sem.acquire();&#xD;
+	} catch (InterruptedException e) {&#xD;
+		// TODO Auto-generated catch block&#xD;
+		e.printStackTrace();&#xD;
+	}		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Paxw0lEeitjunpiMkR1A" name="release" specification="_oSkAUw0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>sem.release();&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PayA0lEeitjunpiMkR1A" name="lecture" specification="_oSkAVA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3PayQ0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>if(lecture) {&#xD;
+			lecture = false; &#xD;
+			return true;&#xD;
+		}&#xD;
+		return lecture;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Payg0lEeitjunpiMkR1A" name="getValue" specification="_oSkAWA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Payw0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>compteur++;&#xD;
+		if(compteur == listCan.size() - 1) {&#xD;
+			lecture = true;&#xD;
+			compteur = 0;&#xD;
+			debut= true;&#xD;
+&#xD;
+		}&#xD;
+		return Val;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3PazA0lEeitjunpiMkR1A" name="setVal" specification="_oSkAXA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3PazQ0lEeitjunpiMkR1A" name="val1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Val = val1;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pazg0lEeitjunpiMkR1A" name="setCapteur" specification="_ow_BsA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pazw0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>cap = capImp;&#xD;
+&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa0A0lEeitjunpiMkR1A" name="addCanal" specification="_ow_Bsg0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pa0Q0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>listCan.add(canAdd);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oSa2Zg0lEeitjunpiMkR1A" name="configure"/>
+        <ownedOperation xmi:id="_oSa2ag0lEeitjunpiMkR1A" name="execute" method="_o3PaxQ0lEeitjunpiMkR1A"/>
+        <ownedOperation xmi:id="_oSkAUg0lEeitjunpiMkR1A" name="acquire" method="_o3Paxg0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLvg0lEeitjunpiMkR1A">
+            <body>*</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oSkAUw0lEeitjunpiMkR1A" name="release" method="_o3Paxw0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLvw0lEeitjunpiMkR1A">
+            <body>on fait la synchronisation</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oSkAVA0lEeitjunpiMkR1A" name="lecture" method="_o3PayA0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_oSkAVQ0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oSkAVg0lEeitjunpiMkR1A" key="synchronized"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_o3ZLwA0lEeitjunpiMkR1A">
+            <body>verification de la lecture&#xD;
+	 * @return lecture</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oSkAVw0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oSkAWA0lEeitjunpiMkR1A" name="getValue" method="_o3Payg0lEeitjunpiMkR1A">
+          <eAnnotations xmi:id="_oSkAWQ0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_oSkAWg0lEeitjunpiMkR1A" key="synchronized"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_o3ZLwQ0lEeitjunpiMkR1A">
+            <body>on recuper la valeur qui sera afficher&#xD;
+	 * @return Val</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oSkAWw0lEeitjunpiMkR1A" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oSkAXA0lEeitjunpiMkR1A" name="setVal" method="_o3PazA0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLwg0lEeitjunpiMkR1A">
+            <body>on modifi la valeur du capteur&#xD;
+	 * @param val1</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_oSkAXQ0lEeitjunpiMkR1A" name="val1">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ow_BsA0lEeitjunpiMkR1A" name="setCapteur" method="_o3Pazg0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLww0lEeitjunpiMkR1A">
+            <body>Ajout du capteur&#xD;
+	 * @param capImp</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ow_BsQ0lEeitjunpiMkR1A" name="capImp" type="_oMAsYw0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ow_Bsg0lEeitjunpiMkR1A" name="addCanal" method="_o3Pa0A0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLxA0lEeitjunpiMkR1A">
+            <body>Ajout du Canal&#xD;
+	 * @param canAdd</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ow_Bsw0lEeitjunpiMkR1A" name="canAdd" type="_oLXMIA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_oSkAXg0lEeitjunpiMkR1A" name="Scheduler">
+        <ownedComment xmi:id="_o3ZLxQ0lEeitjunpiMkR1A">
+          <body>@author Aboubacar&#xD;
+@author Salifou&#xD;
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_oz9dPA0lEeitjunpiMkR1A" general="_oxILqQ0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1AmJQ0lEeitjunpiMkR1A" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_o1AmJg0lEeitjunpiMkR1A" value="1L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1AmJw0lEeitjunpiMkR1A" name="canal1" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5ePaQ0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1AmKQ0lEeitjunpiMkR1A" name="canal2" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5ePbA0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1AmKw0lEeitjunpiMkR1A" name="canal3" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5ePbw0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1JwAQ0lEeitjunpiMkR1A" name="canal4" visibility="private" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5ePcg0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1JwAw0lEeitjunpiMkR1A" name="cap" visibility="private" type="_oMAsYw0lEeitjunpiMkR1A" association="_o5ePdQ0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1JwBQ0lEeitjunpiMkR1A" name="ValCap" visibility="private" type="_orKtkA0lEeitjunpiMkR1A" association="_o5ePeA0lEeitjunpiMkR1A"/>
+        <ownedAttribute xmi:id="_o1JwBw0lEeitjunpiMkR1A" name="modifAlgo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_o1JwCQ0lEeitjunpiMkR1A" name="algorithme" visibility="private" type="_oU8l8A0lEeitjunpiMkR1A" association="_o5ePew0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oz9dMA0lEeitjunpiMkR1A" client="_oSkAXg0lEeitjunpiMkR1A" supplier="_ow_Bvg0lEeitjunpiMkR1A" contract="_ow_Bvg0lEeitjunpiMkR1A"/>
+        <interfaceRealization xmi:id="_oz9dMQ0lEeitjunpiMkR1A" client="_oSkAXg0lEeitjunpiMkR1A" supplier="_oxILoQ0lEeitjunpiMkR1A" contract="_oxILoQ0lEeitjunpiMkR1A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa0g0lEeitjunpiMkR1A" name="itemStateChanged" specification="_oz9dMg0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pa0w0lEeitjunpiMkR1A" name="e" type="_ow_BwA0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>System.out.println(&quot;&quot; + ((JRadioButton) e.getItem()).getActionCommand() + &quot;&quot;);&#xD;
+	 if(e.getStateChange() == ItemEvent.DESELECTED) {&#xD;
+		 if(algorithme instanceof DiffusionAtomique) {&#xD;
+			 ((DiffusionAtomique) algorithme).reset();&#xD;
+		 } &#xD;
+		modifAlgo= true;&#xD;
+	 }&#xD;
+		if(e.getStateChange() == ItemEvent.SELECTED) {&#xD;
+			if(((JRadioButton) e.getItem()).getActionCommand().equals(&quot;atomique&quot;)){&#xD;
+				algorithme = new DiffusionAtomique();&#xD;
+				&#xD;
+			}&#xD;
+			&#xD;
+		if(((JRadioButton) e.getItem()).getActionCommand().equals(&quot;sequentielle&quot;)){&#xD;
+			algorithme = new DiffusionSequentielle();&#xD;
+			&#xD;
+		}&#xD;
+		&#xD;
+		if(((JRadioButton) e.getItem()).getActionCommand().equals(&quot;epoque&quot;)){&#xD;
+			algorithme = new DiffusionParEpoque();&#xD;
+			&#xD;
+		}&#xD;
+		}&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa1A0lEeitjunpiMkR1A" name="actionPerformed" specification="_oz9dNw0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pa1Q0lEeitjunpiMkR1A" name="e" type="_ow_BvA0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>System.out.println(&quot;Choix algorithme diffusion&quot;);&#xD;
+   e.getActionCommand();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa1g0lEeitjunpiMkR1A" name="execute" specification="_oSkAXw0lEeitjunpiMkR1A">
+          <language>java</language>
+          <body>while(true) {&#xD;
+		 if(modifAlgo) {&#xD;
+			 try {&#xD;
+				Thread.sleep(5000);&#xD;
+			} catch (InterruptedException e) {&#xD;
+				// TODO Auto-generated catch block&#xD;
+				e.printStackTrace();&#xD;
+			}&#xD;
+			 this.init(algorithme);&#xD;
+			  modifAlgo= false;&#xD;
+		 }&#xD;
+		 ValCap.setText(String.valueOf(cap.getValue() + 1));&#xD;
+		  cap.tick();&#xD;
+		  try {&#xD;
+			Thread.sleep(1000);&#xD;
+		} catch (InterruptedException e) {&#xD;
+			// TODO Auto-generated catch block&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	 }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa1w0lEeitjunpiMkR1A" name="init" specification="_oxR8oA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pa2A0lEeitjunpiMkR1A" name="algorithme2" type="_oU8l8A0lEeitjunpiMkR1A"/>
+          <language>java</language>
+          <body>this.setTitle(&quot;Capteur Pojet Sep&quot;);&#xD;
+ this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);&#xD;
+ JPanel pan = new JPanel(new GridLayout(0, 1));&#xD;
+ Border bord = BorderFactory.createTitledBorder(&quot;Sheduler&quot;);&#xD;
+ pan.setBorder(bord);&#xD;
+ ButtonGroup group= new ButtonGroup();&#xD;
+ &#xD;
+ JRadioButton radio1 = new JRadioButton(&quot;Atomique&quot;);&#xD;
+ radio1.setMnemonic(KeyEvent.VK_1);&#xD;
+ radio1.setActionCommand(&quot;atomique&quot;);&#xD;
+ radio1.setSelected(true);&#xD;
+ &#xD;
+ JRadioButton radio2 = new JRadioButton(&quot;Sequentielle&quot;);&#xD;
+ radio2.setMnemonic(KeyEvent.VK_2);&#xD;
+ radio2.setActionCommand(&quot;sequentielle&quot;);&#xD;
+ &#xD;
+ &#xD;
+ &#xD;
+ JRadioButton radio3 = new JRadioButton(&quot;Epoque&quot;); &#xD;
+ radio3.setMnemonic(KeyEvent.VK_3);&#xD;
+ radio3.setActionCommand(&quot;epoque&quot;);&#xD;
+ &#xD;
+ group.add(radio1);&#xD;
+ pan.add(radio1);&#xD;
+ group.add(radio2);&#xD;
+ pan.add(radio2);&#xD;
+ group.add(radio3);&#xD;
+ pan.add(radio3);&#xD;
+		&#xD;
+	radio1.addActionListener(this);	&#xD;
+	radio2.addActionListener(this);	&#xD;
+	radio3.addActionListener(this);&#xD;
+	radio1.addItemListener(this);	&#xD;
+	radio2.addItemListener(this);	&#xD;
+	radio3.addItemListener(this);&#xD;
+	&#xD;
+   JPanel Shedule = new JPanel(new GridLayout(2, 2));&#xD;
+   Border borSheldul =  BorderFactory.createTitledBorder(&quot;Afficheur&quot;);&#xD;
+   Shedule.setBorder(borSheldul);&#xD;
+   &#xD;
+   JLabel lab1 = new JLabel(&quot;Afficheur 1&quot;);&#xD;
+   lab1.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+   Shedule.add(lab1);&#xD;
+   &#xD;
+   JLabel lab2 = new JLabel(&quot;Afficheur 2&quot;);&#xD;
+   lab2.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+   Shedule.add(lab2);&#xD;
+   &#xD;
+   JLabel lab3 = new JLabel(&quot;Afficheur 3&quot;);&#xD;
+   lab3.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+   Shedule.add(lab3);&#xD;
+   &#xD;
+   JLabel lab4 = new JLabel(&quot;Afficheur 4&quot;);&#xD;
+   lab4.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+   Shedule.add(lab4);&#xD;
+   &#xD;
+   Afficheur Aff1 = new Afficheur(&quot;0&quot;);&#xD;
+		Aff1.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+		Shedule.add(Aff1);&#xD;
+		Afficheur Aff2 = new Afficheur(&quot;0&quot;);&#xD;
+		Aff2.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+		 Shedule.add(Aff2);&#xD;
+		Afficheur Aff3 = new Afficheur(&quot;0&quot;);&#xD;
+		Aff3.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+		Shedule.add(Aff3);&#xD;
+		Afficheur Aff4 = new Afficheur(&quot;0&quot;);&#xD;
+		Aff4.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 26));&#xD;
+		Shedule.add(Aff4);&#xD;
+   &#xD;
+   Container contenPan = this.getContentPane();&#xD;
+   contenPan.add(pan, BorderLayout.SOUTH);&#xD;
+   contenPan.add(Shedule, BorderLayout.NORTH);&#xD;
+   &#xD;
+  JPanel panCap = new JPanel(new GridLayout(2, 2));&#xD;
+  Border bordCap = BorderFactory.createTitledBorder(&quot;Capteur&quot;);&#xD;
+  panCap.setBorder(bordCap);&#xD;
+   JLabel titre = new JLabel(&quot;Valeur du Capteur&quot;);&#xD;
+   titre.setFont(new Font(&quot;red&quot;, Font.PLAIN, 66));&#xD;
+   titre.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+   panCap.add(titre);&#xD;
+   &#xD;
+   ValCap = new JLabel(&quot;0&quot;);&#xD;
+   ValCap.setFont(new Font(&quot;Red&quot;, Font.PLAIN, 66));&#xD;
+   ValCap.setHorizontalAlignment(SwingConstants.CENTER);&#xD;
+   panCap.add(ValCap);&#xD;
+   &#xD;
+   contenPan.add(panCap, BorderLayout.CENTER);&#xD;
+   if(algorithme2 instanceof DiffusionAtomique) {&#xD;
+ 	  radio1.setSelected(true);&#xD;
+   }&#xD;
+  &#xD;
+   else if(algorithme2 instanceof DiffusionSequentielle) {&#xD;
+ 	  radio2.setSelected(true);&#xD;
+   }&#xD;
+   else if (algorithme2 instanceof DiffusionParEpoque) {&#xD;
+ 	  radio3.setSelected(true);&#xD;
+   }&#xD;
+   &#xD;
+   this.setSize(900,500);&#xD;
+   this.setResizable(false);&#xD;
+   this.setVisible(true);&#xD;
+   &#xD;
+   cap = new CapteurImpl();&#xD;
+   &#xD;
+   canal1 = new Canal(cap, Aff1);&#xD;
+   canal2 =  new Canal(cap, Aff2);&#xD;
+   canal3 = new Canal(cap, Aff3);&#xD;
+   canal4 = new Canal(cap, Aff4);&#xD;
+   &#xD;
+   algorithme2.setCapteur(cap);&#xD;
+   algorithme2.addCanal(canal1);&#xD;
+   algorithme2.addCanal(canal2);&#xD;
+   algorithme2.addCanal(canal3);&#xD;
+   algorithme2.addCanal(canal4);&#xD;
+   &#xD;
+   cap.setAlgoDiffusion(algorithme2);&#xD;
+   &#xD;
+   &#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_o3Pa2Q0lEeitjunpiMkR1A" name="main" specification="_oSkAYA0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_o3Pa2g0lEeitjunpiMkR1A" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_o3Pa2w0lEeitjunpiMkR1A" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Scheduler shel = new Scheduler();&#xD;
+	shel.init(new DiffusionAtomique());&#xD;
+	shel.execute();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_oSkAXw0lEeitjunpiMkR1A" name="execute" method="_o3Pa1g0lEeitjunpiMkR1A">
+          <ownedComment xmi:id="_o3ZLxg0lEeitjunpiMkR1A">
+            <body>Modification de l'horloge</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oSkAYA0lEeitjunpiMkR1A" name="main" isStatic="true" method="_o3Pa2Q0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oStxUA0lEeitjunpiMkR1A" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oTTnMA0lEeitjunpiMkR1A" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oxR8oA0lEeitjunpiMkR1A" name="init" visibility="private" method="_o3Pa1w0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oxR8oQ0lEeitjunpiMkR1A" name="algorithme2" type="_oU8l8A0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oz9dMg0lEeitjunpiMkR1A" name="itemStateChanged" method="_o3Pa0g0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oz9dMw0lEeitjunpiMkR1A" name="e" type="_ow_BwA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_oz9dNw0lEeitjunpiMkR1A" name="actionPerformed" method="_o3Pa1A0lEeitjunpiMkR1A">
+          <ownedParameter xmi:id="_oz9dOA0lEeitjunpiMkR1A" name="e" type="_ow_BvA0lEeitjunpiMkR1A"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFYw0lEeitjunpiMkR1A" name="" memberEnd="_o5VFZA0lEeitjunpiMkR1A _o0tEEw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFZA0lEeitjunpiMkR1A" name="" type="_oIF1sA0lEeitjunpiMkR1A" association="_o5VFYw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFZg0lEeitjunpiMkR1A" name="" memberEnd="_o5VFZw0lEeitjunpiMkR1A _o0tEFg0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFZw0lEeitjunpiMkR1A" name="" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5VFZg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFaQ0lEeitjunpiMkR1A" name="" memberEnd="_o5VFag0lEeitjunpiMkR1A _o0tEGA0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFag0lEeitjunpiMkR1A" name="" type="_oLXMIA0lEeitjunpiMkR1A" association="_o5VFaQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFbA0lEeitjunpiMkR1A" name="" memberEnd="_o5VFbQ0lEeitjunpiMkR1A _o0tEGg0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFbQ0lEeitjunpiMkR1A" name="" type="_oMAsYw0lEeitjunpiMkR1A" association="_o5VFbA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFbw0lEeitjunpiMkR1A" name="" memberEnd="_o5VFcA0lEeitjunpiMkR1A _o021Ew0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFcA0lEeitjunpiMkR1A" name="" type="_oOsM8A0lEeitjunpiMkR1A" association="_o5VFbw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFcg0lEeitjunpiMkR1A" name="" memberEnd="_o5VFcw0lEeitjunpiMkR1A _o021FQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFcw0lEeitjunpiMkR1A" name="" type="_oOsM8A0lEeitjunpiMkR1A" association="_o5VFcg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5VFdQ0lEeitjunpiMkR1A" name="" memberEnd="_o5VFdg0lEeitjunpiMkR1A _o021GQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5VFdg0lEeitjunpiMkR1A" name="" type="_oOsM8A0lEeitjunpiMkR1A" association="_o5VFdQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePUQ0lEeitjunpiMkR1A" name="" memberEnd="_o5ePUg0lEeitjunpiMkR1A _o021HA0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePUg0lEeitjunpiMkR1A" name="" type="_oO198A0lEeitjunpiMkR1A" association="_o5ePUQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePVA0lEeitjunpiMkR1A" name="" memberEnd="_o5ePVQ0lEeitjunpiMkR1A _o021Hg0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePVQ0lEeitjunpiMkR1A" name="" type="_oO198A0lEeitjunpiMkR1A" association="_o5ePVA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePVw0lEeitjunpiMkR1A" name="" memberEnd="_o5ePWA0lEeitjunpiMkR1A _o021Ig0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePWA0lEeitjunpiMkR1A" name="" type="_oQe8sg0lEeitjunpiMkR1A" association="_o5ePVw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePWg0lEeitjunpiMkR1A" name="" memberEnd="_o5ePWw0lEeitjunpiMkR1A _o021JA0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePWw0lEeitjunpiMkR1A" name="" type="_oSa2YA0lEeitjunpiMkR1A" association="_o5ePWg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePXQ0lEeitjunpiMkR1A" name="" memberEnd="_o5ePXg0lEeitjunpiMkR1A _o021Jg0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePXg0lEeitjunpiMkR1A" name="" type="_oSa2YA0lEeitjunpiMkR1A" association="_o5ePXQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePYA0lEeitjunpiMkR1A" name="" memberEnd="_o5ePYQ0lEeitjunpiMkR1A _o1AmEQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePYQ0lEeitjunpiMkR1A" name="" type="_oSa2ZQ0lEeitjunpiMkR1A" association="_o5ePYA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePYw0lEeitjunpiMkR1A" name="" memberEnd="_o5ePZA0lEeitjunpiMkR1A _o1AmEw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePZA0lEeitjunpiMkR1A" name="" type="_oSa2ZQ0lEeitjunpiMkR1A" association="_o5ePYw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePZg0lEeitjunpiMkR1A" name="" memberEnd="_o5ePZw0lEeitjunpiMkR1A _o1AmFw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePZw0lEeitjunpiMkR1A" name="" type="_oSa2ZQ0lEeitjunpiMkR1A" association="_o5ePZg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePaQ0lEeitjunpiMkR1A" name="" memberEnd="_o5ePag0lEeitjunpiMkR1A _o1AmJw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePag0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePaQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePbA0lEeitjunpiMkR1A" name="" memberEnd="_o5ePbQ0lEeitjunpiMkR1A _o1AmKQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePbQ0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePbA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePbw0lEeitjunpiMkR1A" name="" memberEnd="_o5ePcA0lEeitjunpiMkR1A _o1AmKw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePcA0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePbw0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePcg0lEeitjunpiMkR1A" name="" memberEnd="_o5ePcw0lEeitjunpiMkR1A _o1JwAQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePcw0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePcg0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePdQ0lEeitjunpiMkR1A" name="" memberEnd="_o5ePdg0lEeitjunpiMkR1A _o1JwAw0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePdg0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePdQ0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePeA0lEeitjunpiMkR1A" name="" memberEnd="_o5ePeQ0lEeitjunpiMkR1A _o1JwBQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePeQ0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePeA0lEeitjunpiMkR1A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_o5ePew0lEeitjunpiMkR1A" name="" memberEnd="_o5ePfA0lEeitjunpiMkR1A _o1JwCQ0lEeitjunpiMkR1A">
+        <ownedEnd xmi:id="_o5ePfA0lEeitjunpiMkR1A" name="" type="_oSkAXg0lEeitjunpiMkR1A" association="_o5ePew0lEeitjunpiMkR1A"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nxvLMQ0lEeitjunpiMkR1A" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nxvLMg0lEeitjunpiMkR1A" name="junit">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ot__JQ0lEeitjunpiMkR1A" name="Assert"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ot__Jw0lEeitjunpiMkR1A" name="After"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ouJwIQ0lEeitjunpiMkR1A" name="AfterClass"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ouJwIw0lEeitjunpiMkR1A" name="Before"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ouJwJQ0lEeitjunpiMkR1A" name="BeforeClass"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ouJwJw0lEeitjunpiMkR1A" name="Test"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nx4VIA0lEeitjunpiMkR1A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nx4VIQ0lEeitjunpiMkR1A" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_nx4VIg0lEeitjunpiMkR1A" name="concurrent">
+          <packagedElement xmi:type="uml:Class" xmi:id="_ouThIA0lEeitjunpiMkR1A" name="ExecutionException"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_ouThIg0lEeitjunpiMkR1A" name="ScheduledFuture"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ouThJA0lEeitjunpiMkR1A" name="ScheduledThreadPoolExecutor"/>
+          <packagedElement xmi:type="uml:Enumeration" xmi:id="_oucrEA0lEeitjunpiMkR1A" name="TimeUnit"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ov740w0lEeitjunpiMkR1A" name="Semaphore"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_owiVwA0lEeitjunpiMkR1A" name="Callable"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ovyu4A0lEeitjunpiMkR1A" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_ov740Q0lEeitjunpiMkR1A" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_n03XsA0lEeitjunpiMkR1A" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_n03XsQ0lEeitjunpiMkR1A" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_ow_BvA0lEeitjunpiMkR1A" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_ow_Bvg0lEeitjunpiMkR1A" name="ActionListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ow_BwA0lEeitjunpiMkR1A" name="ItemEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_oxILoQ0lEeitjunpiMkR1A" name="ItemListener"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_oxILow0lEeitjunpiMkR1A" name="KeyEvent"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ow_BtA0lEeitjunpiMkR1A" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ow_Btg0lEeitjunpiMkR1A" name="Container"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ow_BuA0lEeitjunpiMkR1A" name="Font"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_ow_Bug0lEeitjunpiMkR1A" name="GridLayout"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ozgxQQ0lEeitjunpiMkR1A" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_ozgxQg0lEeitjunpiMkR1A" name="Exception"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_oz0TRA0lEeitjunpiMkR1A" name="Object"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_j6QjUA0lEeitjunpiMkR1A">
+      <eAnnotations xmi:id="_kEF0wA0lEeitjunpiMkR1A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_kFuzgA0lEeitjunpiMkR1A" base_Package="_iwyZ0A0lEeitjunpiMkR1A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oIO_oQ0lEeitjunpiMkR1A" base_Element="_oIO_oA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oIihoA0lEeitjunpiMkR1A" base_Element="_oIO_oA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oIihoQ0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oIihow0lEeitjunpiMkR1A" base_Element="_oIihog0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oIihpA0lEeitjunpiMkR1A" base_Element="_oIihog0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oIihpQ0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oIihpw0lEeitjunpiMkR1A" base_Element="_oIihpg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oKxWQA0lEeitjunpiMkR1A" base_Element="_oIihpg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oKxWQQ0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oKxWQw0lEeitjunpiMkR1A" base_Element="_oKxWQg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oKxWRA0lEeitjunpiMkR1A" base_Element="_oKxWQg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oKxWRQ0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oKxWRw0lEeitjunpiMkR1A" base_Element="_oKxWRg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oKxWSA0lEeitjunpiMkR1A" base_Element="_oKxWRg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oKxWSQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oK7HQA0lEeitjunpiMkR1A" base_Element="_oKxWSg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oK7HQQ0lEeitjunpiMkR1A" base_Element="_oKxWSg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oK7HQg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oLg9Ig0lEeitjunpiMkR1A" base_Element="_oLg9IA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oLg9Iw0lEeitjunpiMkR1A" base_Element="_oLg9IA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oLg9JA0lEeitjunpiMkR1A" name="SuppressWarnings">
+      <annotationParameters xmi:id="_oLg9JQ0lEeitjunpiMkR1A" skipName="true"/>
+    </annotations>
+    <annotations xmi:id="_oLg9Jg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oLg9KA0lEeitjunpiMkR1A" base_Element="_oLg9Jw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oLg9KQ0lEeitjunpiMkR1A" base_Element="_oLg9Jw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oLg9Kg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oLg9LA0lEeitjunpiMkR1A" base_Element="_oLg9Kw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oLg9LQ0lEeitjunpiMkR1A" base_Element="_oLg9Kw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oLg9Lg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oLquIg0lEeitjunpiMkR1A" base_Element="_oLquIQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oLquIw0lEeitjunpiMkR1A" base_Element="_oLquIQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oLquJA0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oLz4EA0lEeitjunpiMkR1A" base_Element="_oLquJQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oLz4EQ0lEeitjunpiMkR1A" base_Element="_oLquJQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oLz4Eg0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL1tQA0lEeitjunpiMkR1A" base_Element="_oL1GMA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL2UUA0lEeitjunpiMkR1A" base_Element="_oL1GMA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL2UUQ0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27YQ0lEeitjunpiMkR1A" base_Element="_oL27YA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27Yg0lEeitjunpiMkR1A" base_Element="_oL27YA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27Yw0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27ZQ0lEeitjunpiMkR1A" base_Element="_oL27ZA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27Zg0lEeitjunpiMkR1A" base_Element="_oL27ZA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27Zw0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27aQ0lEeitjunpiMkR1A" base_Element="_oL27aA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27ag0lEeitjunpiMkR1A" base_Element="_oL27aA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27aw0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27bQ0lEeitjunpiMkR1A" base_Element="_oL27bA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27bg0lEeitjunpiMkR1A" base_Element="_oL27bA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27bw0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27cQ0lEeitjunpiMkR1A" base_Element="_oL27cA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27cg0lEeitjunpiMkR1A" base_Element="_oL27cA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27cw0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27dQ0lEeitjunpiMkR1A" base_Element="_oL27dA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27dg0lEeitjunpiMkR1A" base_Element="_oL27dA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27dw0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oL27eQ0lEeitjunpiMkR1A" base_Element="_oL27eA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oL27eg0lEeitjunpiMkR1A" base_Element="_oL27eA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oL27ew0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oMAsYA0lEeitjunpiMkR1A" base_Element="_oL27fA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oMAsYQ0lEeitjunpiMkR1A" base_Element="_oL27fA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oMAsYg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oMJ2UQ0lEeitjunpiMkR1A" base_Element="_oMAsZA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oMmiQA0lEeitjunpiMkR1A" base_Element="_oMAsZA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oMmiQQ0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oMmiQw0lEeitjunpiMkR1A" base_Element="_oMmiQg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oMmiRA0lEeitjunpiMkR1A" base_Element="_oMmiQg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oMmiRQ0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oMwTQg0lEeitjunpiMkR1A" base_Element="_oMwTQQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oMwTQw0lEeitjunpiMkR1A" base_Element="_oMwTQQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oMwTRA0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oMwTRg0lEeitjunpiMkR1A" base_Element="_oMwTRQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oM5dMA0lEeitjunpiMkR1A" base_Element="_oMwTRQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oM5dMQ0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oM5dMw0lEeitjunpiMkR1A" base_Element="_oM5dMg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oM5dNA0lEeitjunpiMkR1A" base_Element="_oM5dMg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oM5dNQ0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oM5dNw0lEeitjunpiMkR1A" base_Element="_oM5dNg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oM5dOA0lEeitjunpiMkR1A" base_Element="_oM5dNg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oM5dOQ0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oM5dOw0lEeitjunpiMkR1A" base_Element="_oM5dOg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNDOMA0lEeitjunpiMkR1A" base_Element="_oM5dOg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNDOMQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNDOMw0lEeitjunpiMkR1A" base_Element="_oNDOMg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNDONA0lEeitjunpiMkR1A" base_Element="_oNDOMg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNDONQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNDONw0lEeitjunpiMkR1A" base_Element="_oNDONg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNDOOA0lEeitjunpiMkR1A" base_Element="_oNDONg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNDOOQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNDOOw0lEeitjunpiMkR1A" base_Element="_oNDOOg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNDOPA0lEeitjunpiMkR1A" base_Element="_oNDOOg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNDOPQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNM_MA0lEeitjunpiMkR1A" base_Element="_oNDOPg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNM_MQ0lEeitjunpiMkR1A" base_Element="_oNDOPg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNM_Mg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNM_NA0lEeitjunpiMkR1A" base_Element="_oNM_Mw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNM_NQ0lEeitjunpiMkR1A" base_Element="_oNM_Mw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNM_Ng0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNM_OQ0lEeitjunpiMkR1A" base_Element="_oNM_OA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oNM_Og0lEeitjunpiMkR1A" base_Element="_oNM_OA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oNy1EA0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oNy1Eg0lEeitjunpiMkR1A" base_Element="_oNy1EQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mEA0lEeitjunpiMkR1A" base_Element="_oNy1EQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mEQ0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mEw0lEeitjunpiMkR1A" base_Element="_oN8mEg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mFA0lEeitjunpiMkR1A" base_Element="_oN8mEg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mFQ0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mFw0lEeitjunpiMkR1A" base_Element="_oN8mFg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mGA0lEeitjunpiMkR1A" base_Element="_oN8mFg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mGQ0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mGw0lEeitjunpiMkR1A" base_Element="_oN8mGg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mHA0lEeitjunpiMkR1A" base_Element="_oN8mGg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mHQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mHw0lEeitjunpiMkR1A" base_Element="_oN8mHg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mIA0lEeitjunpiMkR1A" base_Element="_oN8mHg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mIQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mIw0lEeitjunpiMkR1A" base_Element="_oN8mIg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mJA0lEeitjunpiMkR1A" base_Element="_oN8mIg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mJQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mJw0lEeitjunpiMkR1A" base_Element="_oN8mJg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mKA0lEeitjunpiMkR1A" base_Element="_oN8mJg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mKQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oN8mKw0lEeitjunpiMkR1A" base_Element="_oN8mKg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oN8mLA0lEeitjunpiMkR1A" base_Element="_oN8mKg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oN8mLQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oOFwAA0lEeitjunpiMkR1A" base_Element="_oN8mLg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oOFwAQ0lEeitjunpiMkR1A" base_Element="_oN8mLg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oOFwAg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oOsM8g0lEeitjunpiMkR1A" base_Element="_oOsM8Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oOsM8w0lEeitjunpiMkR1A" base_Element="_oOsM8Q0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oOsM9A0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oOsM9g0lEeitjunpiMkR1A" base_Element="_oOsM9Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oOsM9w0lEeitjunpiMkR1A" base_Element="_oOsM9Q0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oOsM-A0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oO198g0lEeitjunpiMkR1A" base_Element="_oO198Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oO198w0lEeitjunpiMkR1A" base_Element="_oO198Q0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oO199A0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oO199g0lEeitjunpiMkR1A" base_Element="_oO199Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oO199w0lEeitjunpiMkR1A" base_Element="_oO199Q0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oO19-A0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oPSC0g0lEeitjunpiMkR1A" base_Element="_oPSC0Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oPSC0w0lEeitjunpiMkR1A" base_Element="_oPSC0Q0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLasA0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLasg0lEeitjunpiMkR1A" base_Element="_oQLasQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQLasw0lEeitjunpiMkR1A" base_Element="_oQLasQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLatA0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLatg0lEeitjunpiMkR1A" base_Element="_oQLatQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQLatw0lEeitjunpiMkR1A" base_Element="_oQLatQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLauA0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLaug0lEeitjunpiMkR1A" base_Element="_oQLauQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQLauw0lEeitjunpiMkR1A" base_Element="_oQLauQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLavA0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLavg0lEeitjunpiMkR1A" base_Element="_oQLavQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQLavw0lEeitjunpiMkR1A" base_Element="_oQLavQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLawA0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLawg0lEeitjunpiMkR1A" base_Element="_oQLawQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQLaww0lEeitjunpiMkR1A" base_Element="_oQLawQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQLaxA0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQLaxg0lEeitjunpiMkR1A" base_Element="_oQLaxQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQVLsA0lEeitjunpiMkR1A" base_Element="_oQLaxQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQVLsQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQVLsw0lEeitjunpiMkR1A" base_Element="_oQVLsg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQe8sA0lEeitjunpiMkR1A" base_Element="_oQVLsg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQe8sQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQoGog0lEeitjunpiMkR1A" base_Element="_oQoGoA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQoGow0lEeitjunpiMkR1A" base_Element="_oQoGoA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQoGpA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oQ7BkQ0lEeitjunpiMkR1A" base_Element="_oQ7BkA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oQ7Bkg0lEeitjunpiMkR1A" base_Element="_oQ7BkA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oQ7Bkw0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR0ZcQ0lEeitjunpiMkR1A" base_Element="_oR0ZcA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR0Zcg0lEeitjunpiMkR1A" base_Element="_oR0ZcA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR0Zcw0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR0ZdQ0lEeitjunpiMkR1A" base_Element="_oR0ZdA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR0Zdg0lEeitjunpiMkR1A" base_Element="_oR0ZdA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR0Zdw0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR0ZeQ0lEeitjunpiMkR1A" base_Element="_oR0ZeA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KcA0lEeitjunpiMkR1A" base_Element="_oR0ZeA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KcQ0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kcw0lEeitjunpiMkR1A" base_Element="_oR-Kcg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KdA0lEeitjunpiMkR1A" base_Element="_oR-Kcg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KdQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kdw0lEeitjunpiMkR1A" base_Element="_oR-Kdg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KeA0lEeitjunpiMkR1A" base_Element="_oR-Kdg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KeQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kew0lEeitjunpiMkR1A" base_Element="_oR-Keg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KfA0lEeitjunpiMkR1A" base_Element="_oR-Keg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KfQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kfw0lEeitjunpiMkR1A" base_Element="_oR-Kfg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KgA0lEeitjunpiMkR1A" base_Element="_oR-Kfg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KgQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kgw0lEeitjunpiMkR1A" base_Element="_oR-Kgg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KhA0lEeitjunpiMkR1A" base_Element="_oR-Kgg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KhQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Khw0lEeitjunpiMkR1A" base_Element="_oR-Khg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KiA0lEeitjunpiMkR1A" base_Element="_oR-Khg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KiQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kiw0lEeitjunpiMkR1A" base_Element="_oR-Kig0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KjA0lEeitjunpiMkR1A" base_Element="_oR-Kig0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KjQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kjw0lEeitjunpiMkR1A" base_Element="_oR-Kjg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oR-KkA0lEeitjunpiMkR1A" base_Element="_oR-Kjg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oR-KkQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oR-Kkw0lEeitjunpiMkR1A" base_Element="_oR-Kkg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUYA0lEeitjunpiMkR1A" base_Element="_oR-Kkg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUYQ0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUZA0lEeitjunpiMkR1A" base_Element="_oSHUYw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUZQ0lEeitjunpiMkR1A" base_Element="_oSHUYw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUZg0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUaA0lEeitjunpiMkR1A" base_Element="_oSHUZw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUaQ0lEeitjunpiMkR1A" base_Element="_oSHUZw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUag0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUbA0lEeitjunpiMkR1A" base_Element="_oSHUaw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUbQ0lEeitjunpiMkR1A" base_Element="_oSHUaw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUbg0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUcA0lEeitjunpiMkR1A" base_Element="_oSHUbw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUcQ0lEeitjunpiMkR1A" base_Element="_oSHUbw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUcg0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUdA0lEeitjunpiMkR1A" base_Element="_oSHUcw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUdQ0lEeitjunpiMkR1A" base_Element="_oSHUcw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUdg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSHUeA0lEeitjunpiMkR1A" base_Element="_oSHUdw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSHUeQ0lEeitjunpiMkR1A" base_Element="_oSHUdw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSHUeg0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFYg0lEeitjunpiMkR1A" base_Element="_oSRFYQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFYw0lEeitjunpiMkR1A" base_Element="_oSRFYQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFZA0lEeitjunpiMkR1A" name="BeforeClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFZg0lEeitjunpiMkR1A" base_Element="_oSRFZQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFZw0lEeitjunpiMkR1A" base_Element="_oSRFZQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFaA0lEeitjunpiMkR1A" name="AfterClass"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFag0lEeitjunpiMkR1A" base_Element="_oSRFaQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFaw0lEeitjunpiMkR1A" base_Element="_oSRFaQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFbA0lEeitjunpiMkR1A" name="Before"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFbg0lEeitjunpiMkR1A" base_Element="_oSRFbQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFbw0lEeitjunpiMkR1A" base_Element="_oSRFbQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFcA0lEeitjunpiMkR1A" name="After"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFcg0lEeitjunpiMkR1A" base_Element="_oSRFcQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFcw0lEeitjunpiMkR1A" base_Element="_oSRFcQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFdA0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSRFdg0lEeitjunpiMkR1A" base_Element="_oSRFdQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSRFdw0lEeitjunpiMkR1A" base_Element="_oSRFdQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSRFeA0lEeitjunpiMkR1A" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSa2Yg0lEeitjunpiMkR1A" base_Element="_oSa2YQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSa2Yw0lEeitjunpiMkR1A" base_Element="_oSa2YQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSa2ZA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSa2Zw0lEeitjunpiMkR1A" base_Element="_oSa2Zg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSa2aA0lEeitjunpiMkR1A" base_Element="_oSa2Zg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSa2aQ0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oSa2aw0lEeitjunpiMkR1A" base_Element="_oSa2ag0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oSkAUA0lEeitjunpiMkR1A" base_Element="_oSa2ag0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oSkAUQ0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oStxUQ0lEeitjunpiMkR1A" base_Element="_oSkAYA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Array xmi:id="_oTTnMQ0lEeitjunpiMkR1A" base_Element="_oStxUA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oWlksA0lEeitjunpiMkR1A" genericsValue="T" base_Element="_oWSpxg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_orePkA0lEeitjunpiMkR1A" base_Element="_orKtkA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ot__Ig0lEeitjunpiMkR1A" base_Element="_ot__IA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_ot__Iw0lEeitjunpiMkR1A" base_Element="_ot__IA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_ot__JA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ot__Jg0lEeitjunpiMkR1A" base_Element="_ot__JQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouJwIA0lEeitjunpiMkR1A" base_Element="_ot__Jw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouJwIg0lEeitjunpiMkR1A" base_Element="_ouJwIQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouJwJA0lEeitjunpiMkR1A" base_Element="_ouJwIw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouJwJg0lEeitjunpiMkR1A" base_Element="_ouJwJQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouJwKA0lEeitjunpiMkR1A" base_Element="_ouJwJw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouThIQ0lEeitjunpiMkR1A" base_Element="_ouThIA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouThIw0lEeitjunpiMkR1A" base_Element="_ouThIg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ouThJQ0lEeitjunpiMkR1A" base_Element="_ouThJA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oucrEQ0lEeitjunpiMkR1A" base_Element="_oucrEA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oumcEg0lEeitjunpiMkR1A" base_Element="_oumcEA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oumcEw0lEeitjunpiMkR1A" base_Element="_oumcEA0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oumcFA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oumcFw0lEeitjunpiMkR1A" base_Element="_oumcFQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oumcGA0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_oumcFg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oumcGQ0lEeitjunpiMkR1A" base_Element="_oumcFQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oumcGg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oumcHQ0lEeitjunpiMkR1A" base_Element="_oumcGw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oumcHg0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_oumcHA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oumcHw0lEeitjunpiMkR1A" base_Element="_oumcGw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oumcIA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ouvmAw0lEeitjunpiMkR1A" base_Element="_ouvmAQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_ouvmBA0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_ouvmAg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_ouvmBQ0lEeitjunpiMkR1A" base_Element="_ouvmAQ0lEeitjunpiMkR1A">
+    <annotations xmi:id="_ouvmBg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ouvmCQ0lEeitjunpiMkR1A" base_Element="_ouvmBw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_ouvmCg0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_ouvmCA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_ouvmCw0lEeitjunpiMkR1A" base_Element="_ouvmBw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_ouvmDA0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_ov740A0lEeitjunpiMkR1A" base_Element="_ovyu4A0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ov740g0lEeitjunpiMkR1A" base_Element="_ov740Q0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ov741A0lEeitjunpiMkR1A" base_Element="_ov740w0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_owiVwQ0lEeitjunpiMkR1A" base_Element="_owiVwA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_BtQ0lEeitjunpiMkR1A" base_Element="_ow_BtA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_Btw0lEeitjunpiMkR1A" base_Element="_ow_Btg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_BuQ0lEeitjunpiMkR1A" base_Element="_ow_BuA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_Buw0lEeitjunpiMkR1A" base_Element="_ow_Bug0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_BvQ0lEeitjunpiMkR1A" base_Element="_ow_BvA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ow_Bvw0lEeitjunpiMkR1A" base_Element="_ow_Bvg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILoA0lEeitjunpiMkR1A" base_Element="_ow_BwA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILog0lEeitjunpiMkR1A" base_Element="_oxILoQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILpA0lEeitjunpiMkR1A" base_Element="_oxILow0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILpg0lEeitjunpiMkR1A" base_Element="_oxILpQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILqA0lEeitjunpiMkR1A" base_Element="_oxILpw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILqg0lEeitjunpiMkR1A" base_Element="_oxILqQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILrA0lEeitjunpiMkR1A" base_Element="_oxILqw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILrg0lEeitjunpiMkR1A" base_Element="_oxILrQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILsA0lEeitjunpiMkR1A" base_Element="_oxILrw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oxILsg0lEeitjunpiMkR1A" base_Element="_oxILsQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oxR8qA0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_oxR8pw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_ozN2UA0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_oxR8qg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_ozN2Ug0lEeitjunpiMkR1A" genericsValue="Capteur" base_Element="_ozN2UQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_ozgxQw0lEeitjunpiMkR1A" base_Element="_ozgxQg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oz0TQQ0lEeitjunpiMkR1A" genericsValue="Integer" base_Element="_oz0TQA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Generics xmi:id="_oz0TQw0lEeitjunpiMkR1A" genericsValue="Object" base_Element="_oz0TQg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_oz0TRQ0lEeitjunpiMkR1A" base_Element="_oz0TRA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oz9dNA0lEeitjunpiMkR1A" base_Element="_oz9dMg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oz9dNQ0lEeitjunpiMkR1A" base_Element="_oz9dMg0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oz9dNg0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_oz9dOQ0lEeitjunpiMkR1A" base_Element="_oz9dNw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Annotations xmi:id="_oz9dOg0lEeitjunpiMkR1A" base_Element="_oz9dNw0lEeitjunpiMkR1A">
+    <annotations xmi:id="_oz9dOw0lEeitjunpiMkR1A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_oz9dPg0lEeitjunpiMkR1A" base_Element="_oz9dPQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o0tEEg0lEeitjunpiMkR1A" base_Element="_o0tEEQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o0tEFQ0lEeitjunpiMkR1A" base_Element="_o0tEEw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o0tEFw0lEeitjunpiMkR1A" base_Element="_o0tEFg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o0tEGQ0lEeitjunpiMkR1A" base_Element="_o0tEGA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o0tEGw0lEeitjunpiMkR1A" base_Element="_o0tEGg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021Eg0lEeitjunpiMkR1A" base_Element="_o021EA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021FA0lEeitjunpiMkR1A" base_Element="_o021Ew0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021GA0lEeitjunpiMkR1A" base_Element="_o021FQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021Gw0lEeitjunpiMkR1A" base_Element="_o021GQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021HQ0lEeitjunpiMkR1A" base_Element="_o021HA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021IQ0lEeitjunpiMkR1A" base_Element="_o021Hg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021Iw0lEeitjunpiMkR1A" base_Element="_o021Ig0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o021JQ0lEeitjunpiMkR1A" base_Element="_o021JA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmEA0lEeitjunpiMkR1A" base_Element="_o021Jg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmEg0lEeitjunpiMkR1A" base_Element="_o1AmEQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmFg0lEeitjunpiMkR1A" base_Element="_o1AmEw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmGQ0lEeitjunpiMkR1A" base_Element="_o1AmFw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmHA0lEeitjunpiMkR1A" base_Element="_o1AmGg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmHw0lEeitjunpiMkR1A" base_Element="_o1AmHQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmIg0lEeitjunpiMkR1A" base_Element="_o1AmIA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmJA0lEeitjunpiMkR1A" base_Element="_o1AmIw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmKA0lEeitjunpiMkR1A" base_Element="_o1AmJw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1AmKg0lEeitjunpiMkR1A" base_Element="_o1AmKQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwAA0lEeitjunpiMkR1A" base_Element="_o1AmKw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwAg0lEeitjunpiMkR1A" base_Element="_o1JwAQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwBA0lEeitjunpiMkR1A" base_Element="_o1JwAw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwBg0lEeitjunpiMkR1A" base_Element="_o1JwBQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwCA0lEeitjunpiMkR1A" base_Element="_o1JwBw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_o1JwCg0lEeitjunpiMkR1A" base_Element="_o1JwCQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFYg0lEeitjunpiMkR1A" base_Element="_o5VFYA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFZQ0lEeitjunpiMkR1A" base_Element="_o5VFYw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFaA0lEeitjunpiMkR1A" base_Element="_o5VFZg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFaw0lEeitjunpiMkR1A" base_Element="_o5VFaQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFbg0lEeitjunpiMkR1A" base_Element="_o5VFbA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFcQ0lEeitjunpiMkR1A" base_Element="_o5VFbw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5VFdA0lEeitjunpiMkR1A" base_Element="_o5VFcg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePUA0lEeitjunpiMkR1A" base_Element="_o5VFdQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePUw0lEeitjunpiMkR1A" base_Element="_o5ePUQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePVg0lEeitjunpiMkR1A" base_Element="_o5ePVA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePWQ0lEeitjunpiMkR1A" base_Element="_o5ePVw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePXA0lEeitjunpiMkR1A" base_Element="_o5ePWg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePXw0lEeitjunpiMkR1A" base_Element="_o5ePXQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePYg0lEeitjunpiMkR1A" base_Element="_o5ePYA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePZQ0lEeitjunpiMkR1A" base_Element="_o5ePYw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePaA0lEeitjunpiMkR1A" base_Element="_o5ePZg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePaw0lEeitjunpiMkR1A" base_Element="_o5ePaQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePbg0lEeitjunpiMkR1A" base_Element="_o5ePbA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePcQ0lEeitjunpiMkR1A" base_Element="_o5ePbw0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePdA0lEeitjunpiMkR1A" base_Element="_o5ePcg0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePdw0lEeitjunpiMkR1A" base_Element="_o5ePdQ0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePeg0lEeitjunpiMkR1A" base_Element="_o5ePeA0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Reference xmi:id="_o5ePfQ0lEeitjunpiMkR1A" base_Element="_o5ePew0lEeitjunpiMkR1A"/>
+  <UMLLabProfile:Patch xmi:id="_xJZeIA0lEeitjunpiMkR1A" base_Element="_oOsM8A0lEeitjunpiMkR1A" patchText="@@ -410,16 +410,55 @@&#xA; re(0);%0D%0A&#xA;+;%0D%0A%0D%0A%09/***%0D%0A%09 * ajout semaphore%0D%0A%09 */%0D%0A&#xA; %09@Overri&#xA;" conflicting="false"/>
+  <UMLLabProfile:Patch xmi:id="_xJsZEA0lEeitjunpiMkR1A" base_Element="_oSa2ZQ0lEeitjunpiMkR1A" patchText="@@ -413,24 +413,27 @@&#xA; aphore(1);%0D%0A&#xA;+;%0D%0A&#xA; %09private Boo&#xA;" conflicting="false"/>
+</xmi:XMI>

@@ -9,7 +9,6 @@ import interFace.AlgoDiffusion;
 import interFace.Capteur;
 import interFace.Observer;
 import interFace.ObserverDeCapteur;
-import interFace.Subject;
 
 /**
  * @author Aboubacar
@@ -55,7 +54,7 @@ public class Canal implements Capteur, ObserverDeCapteur {
 /**
  * Recuperation de la valeur du capteur
  */
-	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@SuppressWarnings({  })
 	@Override
 	public int getValue() {
 	int tmp=0;
@@ -77,14 +76,7 @@ public class Canal implements Capteur, ObserverDeCapteur {
 		return tmp;
 	}
 
-	/**
-	 * 
-	 * @return: algorithme de diffusion utiliser
-	 *//*
-	public AlgoDiffusion allgoUtiliser() {
-		return cap.getAlgoDiffusion();
-		
-	}*/
+	
 	@Override
 	public void tick() {
 		// TODO Auto-generated method stub

@@ -2,8 +2,6 @@ package Capteur;
 
 import java.util.concurrent.Callable;
 
-import interFace.Capteur;
-
 /**
  * @author Aboubacar
  * @author Salifou

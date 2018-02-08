@@ -1,7 +1,6 @@
 package Capteur;
 
 import java.awt.BorderLayout;
-import java.awt.Button;
 import java.awt.Container;
 import java.awt.Font;
 import java.awt.GridLayout;
@@ -131,7 +130,7 @@ private Canal canal1;
     
     
     
-    JRadioButton radio3 = new JRadioButton("Epoque");
+    JRadioButton radio3 = new JRadioButton("Epoque"); 
     radio3.setMnemonic(KeyEvent.VK_3);
     radio3.setActionCommand("epoque");
     

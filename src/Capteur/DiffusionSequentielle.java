@@ -64,7 +64,7 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	}
 	/**
 	 * verification de la lecture
-	 * @return
+	 * @return lecture
 	 */
 	public synchronized boolean lecture() {
 		if(lecture) {
@@ -76,7 +76,7 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	}
 	/**
 	 * on recuper la valeur qui sera afficher
-	 * @return
+	 * @return Val
 	 */
 
 	public synchronized int getValue() {
