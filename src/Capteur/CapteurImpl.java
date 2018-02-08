@@ -28,12 +28,12 @@ public class CapteurImpl implements Capteur {
 		return this.v;
 	}
 /**
- * 
+ * update capteur
  */
 	@Override
 	public void tick() {
-      algo.execute();
-       this.incV();
+	       this.incV();
+	       algo.execute();
 	}
    /**
     * 
@@ -41,7 +41,10 @@ public class CapteurImpl implements Capteur {
 	public void incV() {
 		v++;
 	}
-	
+	/**
+	 * Modificatio algo
+	 * @param algonew
+	 */
 	public void setAlgoDiffusion(AlgoDiffusion algonew) {
 		algo = algonew;
 	}

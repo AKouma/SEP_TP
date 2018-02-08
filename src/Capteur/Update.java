@@ -4,15 +4,31 @@ import java.util.concurrent.Callable;
 
 import interFace.Capteur;
 
-public class Update implements Callable{
-
-	public Update(Capteur cap, Afficheur affch) {
-		// TODO Auto-generated constructor stub
+/**
+ * @author Aboubacar
+ * @author Salifou
+ *
+ */
+public class Update implements Callable<Object>{
+	private Afficheur aff;
+	private Canal canal;
+	/**
+	 * Constructor
+	 * @param cap
+	 * @param affch
+	 */
+	public Update(Afficheur affch , Canal can) {
+		this.aff= affch;
+		this.canal= can;
 	}
-
+	/**
+	 * 
+	 * @return
+	 * @throws Exception
+	 */
 	@Override
 	public Object call() throws Exception {
-		// TODO Auto-generated method stub
+		aff.Update(canal);
 		return null;
 	}
 

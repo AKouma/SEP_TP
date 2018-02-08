@@ -36,7 +36,7 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void Update(Capteur cap) {
-     Update newUpdate= new Update(cap, affch);
+     Update newUpdate= new Update(affch, this);
 		ScheduledThreadPoolExecutor scheduler = new ScheduledThreadPoolExecutor(10);
        scheduler.schedule(newUpdate, (long)(Math.random() * 4000) + 500, TimeUnit.MILLISECONDS);
 
