@@ -15,14 +15,14 @@ public class DiffusionAtomique implements AlgoDiffusion {
 
 	private Capteur cap ;
 	private List <Canal> listCan = new ArrayList<Canal>();
-	private Semaphore sem;
+	private Semaphore sem = new Semaphore(0);
+;
 
 	/***
 	 * ajout semaphore
 	 */
 	@Override
 	public void configure() {
-		sem = new Semaphore(0);
 
 	}
 	/**
@@ -31,8 +31,10 @@ public class DiffusionAtomique implements AlgoDiffusion {
 	@Override
 	public void execute() {
 		for(Canal i : listCan) {
-			i.Update(cap);
+			i.update(cap);
+			
 		}
+		
 		try {
 			sem.acquire(listCan.size());
 		} catch (InterruptedException e) {
@@ -53,7 +55,8 @@ public class DiffusionAtomique implements AlgoDiffusion {
 	 * Reset algo
 	 */
 	public void reset() {
-		sem.release(listCan.size());
+		int tem = listCan.size();
+		sem.release(tem);
 	}
 	/**
 	 * Ajout du capteur
@@ -67,7 +70,7 @@ public class DiffusionAtomique implements AlgoDiffusion {
 	 * Ajout du Canal
 	 * @param canAdd
 	 */
-	public void ajoutCanal(Canal canAdd) {
+	public void addCanal(Canal canAdd) {
 		listCan.add(canAdd);
 	}
 }

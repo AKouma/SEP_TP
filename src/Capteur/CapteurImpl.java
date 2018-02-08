@@ -25,22 +25,17 @@ public class CapteurImpl implements Capteur {
 
 	@Override
 	public int getValue() {
-		return this.v;
+		return v;
 	}
 /**
  * update capteur
  */
 	@Override
 	public void tick() {
-	       this.incV();
-	       algo.execute();
-	}
-   /**
-    * 
-    */
-	public void incV() {
 		v++;
+	    algo.execute();
 	}
+   
 	/**
 	 * Modificatio algo
 	 * @param algonew

@@ -1,6 +1,5 @@
 package Capteur;
 
-import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 import interFace.AlgoDiffusion;
@@ -32,7 +31,7 @@ public class Afficheur extends JLabel implements ObserverDeCapteur {
 	/**
 	 * Mise à jour de l'afficheur
 	 */
-	public void Update(Capteur cap) {
+	public void update(Capteur cap) {
     AlgoDiffusion algorithme = cap.getAlgoDiffusion();
      if(algorithme instanceof DiffusionAtomique) {
     	 int value = cap.getValue();
@@ -51,20 +50,17 @@ public class Afficheur extends JLabel implements ObserverDeCapteur {
     		 value = cap.getValue();
     		 ((DiffusionSequentielle) algorithme).setVal(value);
    	 }
-    	 
+    	 else {
+    		 value =  ((DiffusionSequentielle) algorithme).getValue();
+    		 
+    	 }
+    	  ((DiffusionSequentielle) algorithme).release();
+    	 this.setText(String.valueOf(value));
      }
     	    
     
 	}
 
-	@Override
-	public void update(Subject Capteur) {
-		// TODO Auto-generated method stub
-		
 	
-	}
-	 public static void main(String[] args) {
-		 
-	 }
 
 }

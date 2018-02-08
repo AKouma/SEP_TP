@@ -17,7 +17,8 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 
 	private Capteur cap ;
 	private List <Canal> listCan = new ArrayList<Canal>();
-	private Semaphore sem;
+	private Semaphore sem = new Semaphore(1);
+;
 	private Boolean debut = true;
 	private int compteur =0 ;
 	private Boolean lecture = true;
@@ -28,7 +29,6 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	 */
 	@Override
 	public void configure() {
-		sem = new Semaphore(0);
 
 	}
 	/**
@@ -39,11 +39,22 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 		if(debut) {
 			debut = false;
 			for(Canal i : listCan) {
-				i.Update(cap);
+				i.update(cap);
 			}
 		}
 	}
 
+	/**
+	 * 
+	 */
+	public void acquire() {
+       try {
+		sem.acquire();
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}		
+	}
 	/**
 	 * on fait la synchronisation
 	 */
@@ -69,8 +80,8 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	 */
 
 	public synchronized int getValue() {
-		compteur= compteur +1;
-		if(compteur == listCan.size()) {
+		compteur++;
+		if(compteur == listCan.size() - 1) {
 			lecture = true;
 			compteur = 0;
 			debut= true;
@@ -100,16 +111,8 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	 * Ajout du Canal
 	 * @param canAdd
 	 */
-	public void ajoutCanal(Canal canAdd) {
+	public void addCanal(Canal canAdd) {
 		listCan.add(canAdd);
-	}
-	public void acquire() {
-       try {
-		sem.acquire();
-	} catch (InterruptedException e) {
-		// TODO Auto-generated catch block
-		e.printStackTrace();
-	}		
 	}
 
 }

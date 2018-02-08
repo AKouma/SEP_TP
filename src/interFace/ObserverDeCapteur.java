@@ -7,5 +7,6 @@ package interFace;
 
 public interface ObserverDeCapteur extends Observer<Capteur> {
 	
-	public void Update(Capteur cap);
+	public void update(Capteur cap);
+
 }

@@ -30,7 +30,7 @@ public class DiffusionParEpoque implements AlgoDiffusion {
 	@Override
 	public void execute() {
 		for(Canal i : listCan) {
-			i.Update(cap);
+			i.update(cap);
 		}
 	}
 
@@ -46,7 +46,7 @@ public class DiffusionParEpoque implements AlgoDiffusion {
 	 * Ajout du Canal
 	 * @param canAdd
 	 */
-	public void ajoutCanal(Canal canAdd) {
+	public void addCanal(Canal canAdd) {
 		listCan.add(canAdd);
 	}
 }

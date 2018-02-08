@@ -8,7 +8,7 @@ package interFace;
 public interface Observer<T> {
 	
 	
-public void update(Subject Capteur);
+public void update(T Capteur);
 	
 
 }

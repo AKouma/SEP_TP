@@ -28,7 +28,7 @@ public class Update implements Callable<Object>{
 	 */
 	@Override
 	public Object call() throws Exception {
-		aff.Update(canal);
+		aff.update(canal);
 		return null;
 	}
 
