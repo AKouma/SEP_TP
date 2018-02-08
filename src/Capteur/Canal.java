@@ -81,11 +81,11 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	/**
 	 * 
 	 * @return: algorithme de diffusion utiliser
-	 */
+	 *//*
 	public AlgoDiffusion allgoUtiliser() {
 		return cap.getAlgoDiffusion();
 		
-	}
+	}*/
 	@Override
 	public void tick() {
 		// TODO Auto-generated method stub
@@ -97,6 +97,13 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	public void update(Subject Capteur) {
 		// TODO Auto-generated method stub
 		
+	}
+
+
+	@Override
+	public AlgoDiffusion getAlgoDiffusion() {
+		
+		return cap.getAlgoDiffusion();
 	}
 
 	
