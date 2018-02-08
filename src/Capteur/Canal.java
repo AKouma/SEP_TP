@@ -36,7 +36,7 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	@SuppressWarnings("unchecked")
 	@Override
 	public void Update(Capteur cap) {
-     Update newUpdate= new Update(cap, affch);
+     Update newUpdate= new Update(affch, this);
 		ScheduledThreadPoolExecutor scheduler = new ScheduledThreadPoolExecutor(10);
        scheduler.schedule(newUpdate, (long)(Math.random() * 4000) + 500, TimeUnit.MILLISECONDS);
 
@@ -81,11 +81,11 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	/**
 	 * 
 	 * @return: algorithme de diffusion utiliser
-	 */
+	 *//*
 	public AlgoDiffusion allgoUtiliser() {
 		return cap.getAlgoDiffusion();
 		
-	}
+	}*/
 	@Override
 	public void tick() {
 		// TODO Auto-generated method stub
@@ -97,6 +97,13 @@ public class Canal implements Capteur, ObserverDeCapteur {
 	public void update(Subject Capteur) {
 		// TODO Auto-generated method stub
 		
+	}
+
+
+	@Override
+	public AlgoDiffusion getAlgoDiffusion() {
+		
+		return cap.getAlgoDiffusion();
 	}
 
 	

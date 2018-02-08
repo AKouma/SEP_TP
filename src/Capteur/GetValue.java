@@ -2,17 +2,21 @@ package Capteur;
 
 import java.util.concurrent.Callable;
 
-public class GetValue implements Callable{
+/**
+ * @author Aboubacar
+ * @author Salifou
+ *
+ */
+public class GetValue implements Callable<Integer>{
 
-	
+	private CapteurImpl Cap ;
 	public GetValue(CapteurImpl cap) {
-		// TODO Auto-generated constructor stub
-	}
+		Cap = cap;
+ 	}
 
 	@Override
-	public Object call() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
+	public Integer call() throws Exception {
+		return Cap.getValue();
 	}
 
 }

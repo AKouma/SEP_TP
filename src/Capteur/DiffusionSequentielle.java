@@ -1,3 +1,4 @@
+
 package Capteur;
 
 import java.util.ArrayList;
@@ -101,6 +102,14 @@ public class DiffusionSequentielle implements AlgoDiffusion{
 	 */
 	public void ajoutCanal(Canal canAdd) {
 		listCan.add(canAdd);
+	}
+	public void acquire() {
+       try {
+		sem.acquire();
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}		
 	}
 
 }

@@ -25,4 +25,9 @@ public interface Capteur {
   * 
   */
  public void tick();
+ /**
+  * 
+  * @return
+  */
+ public AlgoDiffusion getAlgoDiffusion();
 }
